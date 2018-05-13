@@ -2,17 +2,17 @@
 
 ## Ground:  
 
-1. 140g solid, dry biscuits violently dismembered.
-2. 10g cocoa powder, dark as our souls.
-3. 60g slowly and painfully molten butter.
-4. Force everything in the cake tin and use a cup to press your victim tightly against it, leaving a border of maybe 1 cm that is also pressed against the sides. 
+1. 280g solid, dry biscuits violently dismembered.
+2. 20g cocoa powder, dark as our souls.
+3. 120g slowly and painfully molten butter.
+4. Force everything in a cake tin with a diameter of 26 cm and use a cup to press your victim tightly against it, leaving a border of maybe 1 cm that is also pressed against the sides. 
 5. Put it in the fridge for 10 Minutes and take it out right before it freezes to death.
 6. Put it into the oven and torture your victim for 15 Minutes by 180°C.
 
 ## Marshmallow-Cheese Creme:
-7. Put 60g Marshmallows in a bowl, add 80g Cream Cheese and put it without mixing into the microwave for 1 Minute by 600 Watts.
+7. Put 120g Marshmallows in a bowl, add 160g Cream Cheese and put it without mixing into the microwave for 1 Minute by 600 Watts.
 8. Beat the mixture up with your whisk until it doesn't look like it originally did anymore (A creme).
-9. Add 60g Milk and continue mixing.
+9. Add 120g Milk and continue mixing.
 10. Add a teaspoon of lemon juice and continue mixing for a couple of seconds.
 11. Now pour the liquified remains into the previously made cake ground so it fills the hole in its heart.
 12. Put everything in the fridge for another hour.
