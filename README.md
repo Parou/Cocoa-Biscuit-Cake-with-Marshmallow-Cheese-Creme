@@ -1,5 +1,10 @@
 # Cocoa-Biscuit Cake with Marshmallow-Cheese Creme
 
+#### Table of contents
+[Ground](#ground)  
+[Marshmallow-Cheese Creme](#marshmallow-cheese-creme)  
+[Installation on Linux](#installation-on-linux)
+
 ## Ground:  
 
 1. 280g solid, dry biscuits violently dismembered.
@@ -19,10 +24,10 @@
 13. Eat it.
 14. Clean your mess up so you can make another one.
 
-## Installation on linux
+## Installation on Linux
 
 Who realistically has time to manually build things? To speed it up, there's a Makefile supplied, so on UNIX
-systems you can simply type `make`, as demonstrated below. If you're on windows, refer to [these steps.](http://www.control-escape.com/linux/lx-install.html)
+systems you can simply type `make`, as demonstrated below. If you're on Windows, refer to [these steps.](http://www.control-escape.com/linux/lx-install.html)
 
 ```
 https://github.com/Parou/Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme
