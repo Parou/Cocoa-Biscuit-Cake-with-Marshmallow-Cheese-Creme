@@ -1,0 +1,41 @@
+{
+    "title": "Cocoa-Biscuit Cake with Marshmallow-Cheese Creme",
+    "parts": [
+        "Ground",
+        "Marshmallow-Cheese Creme"
+    ],
+    "ingredients": {
+        "biscuits": "280g",
+        "cocoaPowder": "20g",
+        "butter": "120g",
+        "marshmallows": "120g",
+        "creamCheese": "160g",
+        "milk": "120g",
+        "lemonJuice": "1 teaspoon"
+    },
+    "tools": [
+        "cake tin",
+        "whisk",
+        "cup",
+        "teaspoon"
+    ],
+    "tinSize": "26 cm",
+    "devices": [
+        "oven",
+        "microwave",
+        "fridge"
+    ],
+    "settings": {
+        "oven": "180 °C",
+        "microwave": "600 Watts"
+    },
+    "timings": {
+        "fridge": [
+            "10 minutes",
+            "60 minutes"
+        ],
+        "oven": [
+            "15 minutes"
+        ]
+    }
+}
