@@ -18,3 +18,14 @@
 12. Put everything in the fridge for another hour.
 13. Eat it.
 14. Clean your mess up so you can make another one.
+
+## Installation on linux
+
+Who realistically has time to manually build things? To speed it up, there's a Makefile supplied, so on UNIX
+systems you can simply type `make`, as demonstrated below. If you're on windows, refer to [these steps.](http://www.control-escape.com/linux/lx-install.html)
+
+```
+https://github.com/Parou/Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme
+cd Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme
+make
+```
