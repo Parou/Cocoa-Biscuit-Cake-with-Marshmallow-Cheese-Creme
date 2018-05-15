@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="ros_pkg" type="baseRecipeSend.py" name="base_recipe_sender"/>
+	<node pkg="ros_pkg" type="baseRecipeExec.py" name="base_recipe_executor"/>
+	<node pkg="ros_pkg" type="cremeRecipeSend.py" name="creme_recipe_sender"/>
+	<node pkg="ros_pkg" type="cremeRecipeExec.py" name="creme_recipe_executor"/>
+	<node pkg="ros_pkg" type="recipeHyperVisor.py" name="recipe_hyper_visor"/>
+</launch>
