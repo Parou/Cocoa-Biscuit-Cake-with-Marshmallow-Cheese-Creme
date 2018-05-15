@@ -15,8 +15,8 @@
     },
     "tools": [
         "cake tin",
-        "whisk",
         "cup",
+        "whisk",
         "teaspoon"
     ],
     "tinSize": 26,
@@ -34,7 +34,8 @@
             10,
             60
         ],
-        "oven": 15
+        "oven": 15,
+        "microwave": 1
     },
     "units" : {
         "ingredients": "g",
