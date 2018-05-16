@@ -5,37 +5,44 @@
         "Marshmallow-Cheese Creme"
     ],
     "ingredients": {
-        "biscuits": "280g",
-        "cocoaPowder": "20g",
-        "butter": "120g",
-        "marshmallows": "120g",
-        "creamCheese": "160g",
-        "milk": "120g",
-        "lemonJuice": "1 teaspoon"
+        "biscuits": 280,
+        "cocoaPowder": 20,
+        "butter": 120,
+        "marshmallows": 120,
+        "creamCheese": 160,
+        "milk": 120,
+        "lemonJuice": 1
     },
     "tools": [
         "cake tin",
-        "whisk",
         "cup",
+        "whisk",
         "teaspoon"
     ],
-    "tinSize": "26 cm",
+    "tinSize": 26,
     "devices": [
         "oven",
         "microwave",
         "fridge"
     ],
     "settings": {
-        "oven": "180 °C",
-        "microwave": "600 Watts"
+        "oven": 180,
+        "microwave": 600
     },
     "timings": {
         "fridge": [
-            "10 minutes",
-            "60 minutes"
+            10,
+            60
         ],
-        "oven": [
-            "15 minutes"
-        ]
+        "oven": 15,
+        "microwave": 1
+    },
+    "units" : {
+        "ingredients": "g",
+        "tinSize": "cm", 
+        "oven": "°C",
+        "microwave": "Watts",
+        "lemonJuice": "Teaspoon",
+        "timings": "Minutes"
     }
 }
