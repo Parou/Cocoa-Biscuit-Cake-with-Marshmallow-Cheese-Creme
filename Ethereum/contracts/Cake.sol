@@ -15,6 +15,27 @@ contract CakeRequirements
 
 contract Cake is CakeRequirements
 {
+    address creator;
+
+    function Cake() public payable
+    {
+            Bakers[msg.sender]=true;
+            creator=msg.sender;
+    }
+
+    mapping(address => bool) public Bakers;
+
+    modifier AliceBakers(address _account)
+    {
+        require(Bakers[msg.sender] == true);
+            _;
+    }
+
+    function MakeBaker(address _newBaker) public AliceBakers(msg.sender)
+    {
+        Bakers[_newBaker]=true;
+    }
+
     //Ground Prep Instructions
     string[16] Preparation=[    "Ground Preparation:",
                                 "280g solid, dry biscuits violently dismembered.",
@@ -68,5 +89,11 @@ contract Cake is CakeRequirements
 
         return("Congratulations! You have made youself a perfect Alice Peter signature Cake.");
 
+    }
+    function resetInstruction() public {countInst=0;}
+
+    function KillSwitch() public AliceBakers(msg.sender)
+    {
+        selfdestruct(creator);
     }
 }
