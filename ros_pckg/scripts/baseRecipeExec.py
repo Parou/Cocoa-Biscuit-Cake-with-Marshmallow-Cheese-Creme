@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# ROS ver. Kineic Kame / ubuntu 16.06LTS
+# ROS ver. Kineic Kame / ubuntu 16.04LTS
 # Base execution node
 
 import rospy

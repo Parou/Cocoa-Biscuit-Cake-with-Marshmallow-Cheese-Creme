@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # base recipe publishing node
-# ROS ver. Kineic Kame / ubuntu 16.06LTS
+# ROS ver. Kineic Kame / ubuntu 16.04LTS
 # Baking hypervision node
 
 import rospy

@@ -1,0 +1,2998 @@
+
+_ZnwmPv:
+  pushq %rbp #147.1
+  movq %rsp, %rbp #147.1
+  subq $32, %rsp #147.1
+  movq %rdi, -32(%rbp) #147.1
+  movq %rsi, -24(%rbp) #147.1
+  movq -24(%rbp), %rax #147.10
+  movq %rax, -16(%rbp) #147.10
+  movq -16(%rbp), %rax #147.3
+  leave #147.3
+  ret #147.3
+
+_ZdlPvS_:
+  pushq %rbp #152.67
+  movq %rsp, %rbp #152.67
+  subq $16, %rsp #152.67
+  movq %rdi, -16(%rbp) #152.67
+  movq %rsi, -8(%rbp) #152.67
+  leave #152.69
+  ret #152.69
+_ZNSt11char_traitsIcE6assignERcRKc:
+  pushq %rbp #243.7
+  movq %rsp, %rbp #243.7
+  subq $16, %rsp #243.7
+  movq %rdi, -16(%rbp) #243.7
+  movq %rsi, -8(%rbp) #243.7
+  movq -8(%rbp), %rax #243.16
+  movq -16(%rbp), %rdx #243.9
+  movsbl (%rax), %eax #243.16
+  movb %al, (%rdx) #243.9
+  leave #243.22
+  ret #243.22
+_ZNSt11char_traitsIcE6lengthEPKc:
+  pushq %rbp #267.7
+  movq %rsp, %rbp #267.7
+  subq $16, %rsp #267.7
+  movq %rdi, -16(%rbp) #267.7
+  movq -16(%rbp), %rax #267.16
+  movq %rax, %rcx #267.16
+  xorl %eax, %eax #267.16
+..L45: #
+  movzbl (%rcx,%rax), %edx #267.16
+  testl %edx, %edx #267.16
+  je ..L44 # Prob 50% #267.16
+  movzbl 1(%rcx,%rax), %edx #267.16
+  addq $2, %rax #267.16
+  testl %edx, %edx #267.16
+  jne ..L45 # Prob 50% #267.16
+  decq %rax #267.16
+..L44: #
+  movq %rax, -8(%rbp) #267.16
+  movq -8(%rbp), %rax #267.16
+  leave #267.16
+  ret #267.16
+_ZNSt11char_traitsIcE4copyEPcPKcm:
+  pushq %rbp #287.7
+  movq %rsp, %rbp #287.7
+  subq $32, %rsp #287.7
+  movq %rdi, -32(%rbp) #287.7
+  movq %rsi, -24(%rbp) #287.7
+  movq %rdx, -16(%rbp) #287.7
+  movq -16(%rbp), %rax #288.6
+  testq %rax, %rax #288.13
+  jne ..B5.3 # Prob 50% #288.13
+  movq -32(%rbp), %rax #289.11
+  leave #289.11
+  ret #289.11
+..B5.3: # Preds ..B5.1
+  movq -32(%rbp), %rax #290.33
+  movq -24(%rbp), %rdx #290.33
+  movq -16(%rbp), %rcx #290.33
+  movq %rax, %rdi #290.33
+  movq %rdx, %rsi #290.33
+  movq %rdi, %rdx #290.33
+  movl %ecx, %eax #290.33
+  shrq $2, %rcx #290.33
+  rep #290.33
+  movsl #290.33
+  movl %eax, %ecx #290.33
+  andl $3, %ecx #290.33
+  rep #290.33
+  movsb #290.33
+  movq %rdx, %rax #290.33
+  movq %rax, -8(%rbp) #290.33
+  movq -8(%rbp), %rax #290.33
+  leave #290.33
+  ret #290.33
+_ZNSt16allocator_traitsISaIcEE10deallocateERS0_Pcm:
+  pushq %rbp #442.7
+  movq %rsp, %rbp #442.7
+  subq $32, %rsp #442.7
+  movq %rdi, -32(%rbp) #442.7
+  movq %rsi, -24(%rbp) #442.7
+  movq %rdx, -16(%rbp) #442.7
+  movq -32(%rbp), %rax #442.13
+  movq -24(%rbp), %rdx #442.13
+  movq -16(%rbp), %rcx #442.13
+  movq %rax, %rdi #442.13
+  movq %rdx, %rsi #442.13
+  movq %rcx, %rdx #442.13
+  call _ZN9__gnu_cxx13new_allocatorIcE10deallocateEPcm #442.13
+  leave #442.35
+  ret #442.35
+_ZNSt16allocator_traitsISaIcEE37select_on_container_copy_constructionERKS0_:
+  pushq %rbp #485.7
+  movq %rsp, %rbp #485.7
+  subq $16, %rsp #485.7
+  movq %rdi, -16(%rbp) #485.7
+  movq %rsi, -8(%rbp) #485.7
+  movq -16(%rbp), %rax #485.16
+  movq -8(%rbp), %rdx #485.16
+  movq %rax, %rdi #485.16
+  movq %rdx, %rsi #485.16
+  call _ZNSaIcEC1ERKS_ #485.16
+  leave #485.9
+  ret #485.9
+_ZNKSt5ctypeIcE5widenEc:
+  pushq %rbp #873.7
+  movq %rsp, %rbp #873.7
+  subq $32, %rsp #873.7
+  movq %rdi, -24(%rbp) #873.7
+  movb %sil, -16(%rbp) #873.7
+  movq -24(%rbp), %rax #874.6
+  movsbl 56(%rax), %eax #874.6
+  movsbq %al, %rax #874.6
+  testl %eax, %eax #874.6
+  je ..B8.3 # Prob 50% #874.6
+  movsbl -16(%rbp), %eax #875.47
+  movsbq %al, %rax #875.47
+  movzbl %al, %eax #875.11
+  addq -24(%rbp), %rax #875.11
+  addq $57, %rax #875.11
+  movsbl (%rax), %eax #875.11
+  leave #875.11
+  ret #875.11
+..B8.3: # Preds ..B8.1
+  movq -24(%rbp), %rax #876.8
+  movq %rax, %rdi #876.8
+  call _ZNKSt5ctypeIcE13_M_widen_initEv #876.8
+  movq -24(%rbp), %rax #877.24
+  movl $6, %edx #877.24
+  movslq %edx, %rdx #877.24
+  imulq $8, %rdx, %rdx #877.24
+  addq (%rax), %rdx #877.24
+  movq (%rdx), %rax #877.24
+  movq -24(%rbp), %rdx #877.24
+  movsbl -16(%rbp), %ecx #877.24
+  movq %rdx, %rdi #877.24
+  movl %ecx, %esi #877.24
+  call *%rax #877.24
+  movb %al, -32(%rbp) #877.24
+  movsbl -32(%rbp), %eax #877.24
+  leave #877.24
+  ret #877.24
+_ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE8allocateERS6_m:
+  pushq %rbp #416.7
+  movq %rsp, %rbp #416.7
+  subq $32, %rsp #416.7
+  movq %rdi, -32(%rbp) #416.7
+  movq %rsi, -24(%rbp) #416.7
+  movq -32(%rbp), %rax #416.20
+  movq -24(%rbp), %rdx #416.20
+  movl $0, %ecx #416.20
+  movq %rax, %rdi #416.20
+  movq %rdx, %rsi #416.20
+  movq %rcx, %rdx #416.20
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv #416.20
+  movq %rax, -16(%rbp) #416.20
+  movq -16(%rbp), %rax #416.20
+  leave #416.20
+  ret #416.20
+_ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE10deallocateERS6_PS5_m:
+  pushq %rbp #442.7
+  movq %rsp, %rbp #442.7
+  subq $32, %rsp #442.7
+  movq %rdi, -32(%rbp) #442.7
+  movq %rsi, -24(%rbp) #442.7
+  movq %rdx, -16(%rbp) #442.7
+  movq -32(%rbp), %rax #442.13
+  movq -24(%rbp), %rdx #442.13
+  movq -16(%rbp), %rcx #442.13
+  movq %rax, %rdi #442.13
+  movq %rdx, %rsi #442.13
+  movq %rcx, %rdx #442.13
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE10deallocateEPS6_m #442.13
+  leave #442.35
+  ret #442.35
+_ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev:
+  pushq %rbp #131.27
+  movq %rsp, %rbp #131.27
+  subq $32, %rsp #131.27
+  movq %rdi, -32(%rbp) #131.27
+  movq -32(%rbp), %rax #131.7
+  movq %rax, %rdi #131.7
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2Ev #131.7
+  jmp ..B11.5 # Prob 100% #131.7
+  movq %rax, -24(%rbp) #131.27
+  movl %edx, -16(%rbp) #131.27
+  movq -24(%rbp), %rax #131.27
+  movq %rax, %rdi #131.27
+  movl $0, %eax #131.27
+  call __cxa_call_unexpected #131.27
+  movq -24(%rbp), %rax #131.27
+  movq %rax, %rdi #131.27
+  call _Unwind_Resume #131.27
+..B11.5: # Preds ..B11.1
+  leave #131.29
+  ret #131.29
+_ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKS5_:
+  pushq %rbp #134.36
+  movq %rsp, %rbp #134.36
+  subq $32, %rsp #134.36
+  movq %rdi, -32(%rbp) #134.36
+  movq %rsi, -24(%rbp) #134.36
+  movq -32(%rbp), %rax #134.31
+  movq -24(%rbp), %rdx #134.31
+  movq %rax, %rdi #134.31
+  movq %rdx, %rsi #134.31
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKS7_ #134.31
+  jmp ..B12.5 # Prob 100% #134.31
+  movq %rax, -16(%rbp) #134.36
+  movl %edx, -8(%rbp) #134.36
+  movq -16(%rbp), %rax #134.36
+  movq %rax, %rdi #134.36
+  movl $0, %eax #134.36
+  call __cxa_call_unexpected #134.36
+  movq -16(%rbp), %rax #134.36
+  movq %rax, %rdi #134.36
+  call _Unwind_Resume #134.36
+..B12.5: # Preds ..B12.1
+  leave #134.38
+  ret #134.38
+_ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKS5_:
+  pushq %rbp #133.7
+  movq %rsp, %rbp #133.7
+  subq $16, %rsp #133.7
+  movq %rdi, -16(%rbp) #133.7
+  movq %rsi, -8(%rbp) #133.7
+  movq -16(%rbp), %rax #133.7
+  movq -8(%rbp), %rdx #133.7
+  movq %rax, %rdi #133.7
+  movq %rdx, %rsi #133.7
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKS5_ #133.7
+  leave #133.7
+  ret #133.7
+_ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev:
+  pushq %rbp #139.28
+  movq %rsp, %rbp #139.28
+  subq $32, %rsp #139.28
+  movq %rdi, -32(%rbp) #139.28
+  movq -32(%rbp), %rax #139.30
+  movq %rax, %rdi #139.30
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev #139.30
+  jmp ..B14.5 # Prob 100% #139.30
+  movq %rax, -24(%rbp) #139.28
+  movl %edx, -16(%rbp) #139.28
+  movq -24(%rbp), %rax #139.28
+  movq %rax, %rdi #139.28
+  movl $0, %eax #139.28
+  call __cxa_call_unexpected #139.28
+  movq -24(%rbp), %rax #139.28
+  movq %rax, %rdi #139.28
+  call _Unwind_Resume #139.28
+..B14.5: # Preds ..B14.1
+  leave #139.30
+  ret #139.30
+_ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev:
+  pushq %rbp #139.7
+  movq %rsp, %rbp #139.7
+  subq $16, %rsp #139.7
+  movq %rdi, -16(%rbp) #139.7
+  movq -16(%rbp), %rax #139.7
+  movq %rax, %rdi #139.7
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #139.7
+  leave #139.7
+  ret #139.7
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_get_Tp_allocatorEv:
+  pushq %rbp #114.7
+  movq %rsp, %rbp #114.7
+  subq $16, %rsp #114.7
+  movq %rdi, -16(%rbp) #114.7
+  movq -16(%rbp), %rax #114.47
+  movq %rax, -8(%rbp) #114.47
+  movq -8(%rbp), %rax #114.9
+  leave #114.9
+  ret #114.9
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ERKS6_:
+  pushq %rbp #128.22
+  movq %rsp, %rbp #128.22
+  subq $16, %rsp #128.22
+  movq %rdi, -16(%rbp) #128.22
+  movq %rsi, -8(%rbp) #128.22
+  movq -16(%rbp), %rax #128.17
+  movq -8(%rbp), %rdx #128.17
+  movq %rax, %rdi #128.17
+  movq %rdx, %rsi #128.17
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implC1ERKS6_ #128.17
+  leave #128.24
+  ret #128.24
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC2ERKS6_:
+  pushq %rbp #127.7
+  movq %rsp, %rbp #127.7
+  subq $16, %rsp #127.7
+  movq %rdi, -16(%rbp) #127.7
+  movq %rsi, -8(%rbp) #127.7
+  movq -16(%rbp), %rax #127.7
+  movq -8(%rbp), %rdx #127.7
+  movq %rax, %rdi #127.7
+  movq %rdx, %rsi #127.7
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ERKS6_ #127.7
+  leave #127.7
+  ret #127.7
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev:
+  pushq %rbp #160.7
+  movq %rsp, %rbp #160.7
+  subq $32, %rsp #160.7
+  movq %rbx, -8(%rbp) #160.7[spill]
+  movq %rdi, -32(%rbp) #160.7
+  movq -32(%rbp), %rax #160.9
+  movq -32(%rbp), %rdx #160.9
+  movq (%rdx), %rdx #160.9
+  movq -32(%rbp), %rcx #160.9
+  movq -32(%rbp), %rbx #160.9
+  movq (%rbx), %rbx #160.9
+  negq %rbx #160.9
+  addq 16(%rcx), %rbx #160.9
+  sarq $5, %rbx #160.9
+  movq %rax, %rdi #160.9
+  movq %rdx, %rsi #160.9
+  movq %rbx, %rdx #160.9
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE13_M_deallocateEPS5_m #160.9
+  jmp ..B19.6 # Prob 100% #160.9
+  movq %rax, -24(%rbp) #160.7
+  movl %edx, -16(%rbp) #160.7
+  movq -32(%rbp), %rax #160.7
+  movq %rax, %rdi #160.7
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implD1Ev #160.7
+  movq -24(%rbp), %rax #160.7
+  movq %rax, %rdi #160.7
+  movl $0, %eax #160.7
+  call __cxa_call_unexpected #160.7
+  movq -24(%rbp), %rax #160.7
+  movq %rax, %rdi #160.7
+  call _Unwind_Resume #160.7
+..B19.6: # Preds ..B19.1
+  movq -32(%rbp), %rax #161.36
+  movq %rax, %rdi #161.36
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implD1Ev #161.36
+  movq -8(%rbp), %rbx #161.36[spill]
+  leave #161.36
+  ret #161.36
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev:
+  pushq %rbp #159.7
+  movq %rsp, %rbp #159.7
+  subq $16, %rsp #159.7
+  movq %rdi, -16(%rbp) #159.7
+  movq -16(%rbp), %rax #159.7
+  movq %rax, %rdi #159.7
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev #159.7
+  leave #159.7
+  ret #159.7
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE11_M_allocateEm:
+  pushq %rbp #168.7
+  movq %rsp, %rbp #168.7
+  subq $32, %rsp #168.7
+  movq %rdi, -32(%rbp) #168.7
+  movq %rsi, -24(%rbp) #168.7
+  movq -24(%rbp), %rax #170.9
+  testq %rax, %rax #170.16
+  jne ..B21.3 # Prob 50% #170.16
+  movq $0, -8(%rbp) #170.50
+  jmp ..B21.5 # Prob 100% #170.50
+..B21.3: # Preds ..B21.1
+  movq -32(%rbp), %rax #170.20
+  movq -24(%rbp), %rdx #170.20
+  movq %rax, %rdi #170.20
+  movq %rdx, %rsi #170.20
+  call _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE8allocateERS6_m #170.20
+  movq %rax, -16(%rbp) #170.20
+  movq -16(%rbp), %rax #170.20
+  movq %rax, -8(%rbp) #170.50
+..B21.5: # Preds ..B21.4 ..B21.2
+  movq -8(%rbp), %rax #170.50
+  leave #170.16
+  ret #170.16
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE13_M_deallocateEPS5_m:
+  pushq %rbp #175.7
+  movq %rsp, %rbp #175.7
+  subq $32, %rsp #175.7
+  movq %rdi, -32(%rbp) #175.7
+  movq %rsi, -24(%rbp) #175.7
+  movq %rdx, -16(%rbp) #175.7
+  movq -24(%rbp), %rax #177.6
+  testq %rax, %rax #177.6
+  je ..B22.3 # Prob 50% #177.6
+  movq -32(%rbp), %rax #178.4
+  movq -24(%rbp), %rdx #178.4
+  movq -16(%rbp), %rcx #178.4
+  movq %rax, %rdi #178.4
+  movq %rdx, %rsi #178.4
+  movq %rcx, %rdx #178.4
+  call _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE10deallocateERS6_PS5_m #178.4
+..B22.3: # Preds ..B22.2 ..B22.1
+  leave #179.7
+  ret #179.7
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implC1ERKS6_:
+  pushq %rbp #92.2
+  movq %rsp, %rbp #92.2
+  subq $16, %rsp #92.2
+  movq %rdi, -16(%rbp) #92.2
+  movq %rsi, -8(%rbp) #92.2
+  movq -16(%rbp), %rax #91.19
+  movq -8(%rbp), %rdx #91.19
+  movq %rax, %rdi #91.19
+  movq %rdx, %rsi #91.19
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKS5_ #91.19
+  movq -16(%rbp), %rax #90.2
+  movq $0, (%rax) #90.2
+  movq -16(%rbp), %rax #90.2
+  movq $0, 8(%rax) #90.2
+  movq -16(%rbp), %rax #90.2
+  movq $0, 16(%rax) #90.2
+  leave #92.4
+  ret #92.4
+_ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implD1Ev:
+  pushq %rbp #79.14
+  movq %rsp, %rbp #79.14
+  subq $16, %rsp #79.14
+  movq %rdi, -16(%rbp) #79.14
+  movq -16(%rbp), %rax #79.14
+  movq %rax, %rdi #79.14
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev #79.14
+  leave #79.14
+  ret #79.14
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ESt16initializer_listIS5_ERKS6_:
+  pushq %rbp #378.7
+  movq %rsp, %rbp #378.7
+  subq $96, %rsp #378.7
+  movq %rdi, -88(%rbp) #378.7
+  movq %rsi, -80(%rbp) #378.7
+  movq %rdx, -72(%rbp) #378.7
+  movq %rcx, -64(%rbp) #378.7
+  movq -88(%rbp), %rax #377.15
+  movq -64(%rbp), %rdx #377.15
+  movq %rax, %rdi #377.15
+  movq %rdx, %rsi #377.15
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC2ERKS6_ #377.15
+  lea -80(%rbp), %rax #379.26
+  movq %rax, %rdi #379.26
+  call _ZNKSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE5beginEv #379.26
+  movq %rax, -56(%rbp) #379.26
+  lea -80(%rbp), %rax #379.39
+  movq %rax, %rdi #379.39
+  call _ZNKSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE3endEv #379.39
+  movq %rax, -48(%rbp) #379.39
+  addq $-16, %rsp #379.2
+  movq -88(%rbp), %rax #379.2
+  movq %rax, -24(%rbp) #379.2[spill]
+  movq -56(%rbp), %rax #379.2
+  movq %rax, -16(%rbp) #379.2[spill]
+  movq -48(%rbp), %rax #379.2
+  movq %rax, -8(%rbp) #379.2[spill]
+  lea -96(%rbp), %rax #379.2
+  movq %rsp, %rdx #379.2
+  movq %rdx, %rdi #379.2
+  movq %rax, %rsi #379.2
+  movl $1, %ecx #379.2
+  movl %ecx, %eax #379.2
+  shrq $2, %rcx #379.2
+  rep #379.2
+  movsl #379.2
+  movl %eax, %ecx #379.2
+  andl $3, %ecx #379.2
+  rep #379.2
+  movsb #379.2
+  movq -24(%rbp), %rax #379.2[spill]
+  movq %rax, %rdi #379.2
+  movq -16(%rbp), %rax #379.2[spill]
+  movq %rax, %rsi #379.2
+  movq -8(%rbp), %rax #379.2[spill]
+  movq %rax, %rdx #379.2
+  call _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_range_initializeIPKS5_EEvT_SB_St20forward_iterator_tag #379.2
+  jmp ..B25.8 # Prob 100% #379.2
+  movq %rax, -40(%rbp) #377.15
+  movl %edx, -32(%rbp) #377.15
+  movq -88(%rbp), %rax #377.15
+  movq %rax, %rdi #377.15
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev #377.15
+  movq -40(%rbp), %rax #377.15
+  movq %rax, %rdi #377.15
+  call _Unwind_Resume #377.15
+..B25.8: # Preds ..B25.14
+  addq $16, %rsp #379.2
+  leave #381.7
+  ret #381.7
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev:
+  pushq %rbp #426.7
+  movq %rsp, %rbp #426.7
+  subq $32, %rsp #426.7
+  movq %rdi, -32(%rbp) #426.7
+  movq -32(%rbp), %rax #427.9
+  movq %rax, %rdi #427.9
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_get_Tp_allocatorEv #427.9
+  movq %rax, -24(%rbp) #427.9
+  movq -32(%rbp), %rax #426.9
+  movq (%rax), %rax #426.9
+  movq -32(%rbp), %rdx #426.9
+  movq 8(%rdx), %rdx #426.9
+  movq -24(%rbp), %rcx #426.9
+  movq %rax, %rdi #426.9
+  movq %rdx, %rsi #426.9
+  movq %rcx, %rdx #426.9
+  call _ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EvT_S7_RSaIT0_E #426.9
+  jmp ..B26.7 # Prob 100% #426.9
+  movq %rax, -16(%rbp) #426.7
+  movl %edx, -8(%rbp) #426.7
+  movq -32(%rbp), %rax #426.7
+  movq %rax, %rdi #426.7
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev #426.7
+  movq -16(%rbp), %rax #426.7
+  movq %rax, %rdi #426.7
+  movl $0, %eax #426.7
+  call __cxa_call_unexpected #426.7
+  movq -16(%rbp), %rax #426.7
+  movq %rax, %rdi #426.7
+  call _Unwind_Resume #426.7
+..B26.7: # Preds ..B26.2
+  movq -32(%rbp), %rax #427.33
+  movq %rax, %rdi #427.33
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev #427.33
+  leave #427.33
+  ret #427.33
+_ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE5beginEv:
+  pushq %rbp #558.7
+  movq %rsp, %rbp #558.7
+  subq $32, %rsp #558.7
+  movq %rdi, -32(%rbp) #558.7
+  movq -32(%rbp), %rax #558.31
+  movq (%rax), %rax #558.31
+  movq %rax, -24(%rbp) #558.31
+  lea -16(%rbp), %rax #558.31
+  lea -24(%rbp), %rdx #558.31
+  movq %rax, %rdi #558.31
+  movq %rdx, %rsi #558.31
+  call _ZN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEC1ERKS8_ #558.31
+  lea -8(%rbp), %rax #558.16
+  lea -16(%rbp), %rdx #558.16
+  movq %rax, %rdi #558.16
+  movq %rdx, %rsi #558.16
+  movl $8, %ecx #558.16
+  movl %ecx, %eax #558.16
+  shrq $2, %rcx #558.16
+  rep #558.16
+  movsl #558.16
+  movl %eax, %ecx #558.16
+  andl $3, %ecx #558.16
+  rep #558.16
+  movsb #558.16
+  movq -8(%rbp), %rax #558.9
+  leave #558.9
+  ret #558.9
+_ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE3endEv:
+  pushq %rbp #576.7
+  movq %rsp, %rbp #576.7
+  subq $32, %rsp #576.7
+  movq %rdi, -32(%rbp) #576.7
+  movq -32(%rbp), %rax #576.31
+  movq 8(%rax), %rax #576.31
+  movq %rax, -24(%rbp) #576.31
+  lea -16(%rbp), %rax #576.31
+  lea -24(%rbp), %rdx #576.31
+  movq %rax, %rdi #576.31
+  movq %rdx, %rsi #576.31
+  call _ZN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEC1ERKS8_ #576.31
+  lea -8(%rbp), %rax #576.16
+  lea -16(%rbp), %rdx #576.16
+  movq %rax, %rdi #576.16
+  movq %rdx, %rsi #576.16
+  movl $8, %ecx #576.16
+  movl %ecx, %eax #576.16
+  shrq $2, %rcx #576.16
+  rep #576.16
+  movsl #576.16
+  movl %eax, %ecx #576.16
+  andl $3, %ecx #576.16
+  rep #576.16
+  movsb #576.16
+  movq -8(%rbp), %rax #576.9
+  leave #576.9
+  ret #576.9
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_range_initializeIPKS5_EEvT_SB_St20forward_iterator_tag:
+  pushq %rbp #1283.9
+  movq %rsp, %rbp #1283.9
+  subq $80, %rsp #1283.9
+  movq %rbx, -16(%rbp) #1283.9[spill]
+  movq %rdi, -80(%rbp) #1283.9
+  movq %rsi, -72(%rbp) #1283.9
+  movq %rdx, -64(%rbp) #1283.9
+  movq -72(%rbp), %rax #1284.26
+  movq -64(%rbp), %rdx #1284.26
+  movq %rax, %rdi #1284.26
+  movq %rdx, %rsi #1284.26
+  call _ZSt8distanceIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENSt15iterator_traitsIT_E15difference_typeES9_S9_ #1284.26
+  movq %rax, -56(%rbp) #1284.26
+  movq -56(%rbp), %rax #1284.26
+  movq %rax, -48(%rbp) #1284.24
+  movq -80(%rbp), %rax #1285.35
+  movq -48(%rbp), %rdx #1285.35
+  movq %rax, %rdi #1285.35
+  movq %rdx, %rsi #1285.35
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE11_M_allocateEm #1285.35
+  movq %rax, -40(%rbp) #1285.35
+  movq -80(%rbp), %rax #1285.4
+  movq -40(%rbp), %rdx #1285.35
+  movq %rdx, (%rax) #1285.4
+  movq -80(%rbp), %rax #1286.38
+  movq -48(%rbp), %rdx #1286.63
+  imulq $32, %rdx, %rdx #1286.38
+  addq (%rax), %rdx #1286.38
+  movq -80(%rbp), %rax #1286.4
+  movq %rdx, 16(%rax) #1286.4
+  movq -80(%rbp), %rax #1290.6
+  movq %rax, %rdi #1290.6
+  call _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_get_Tp_allocatorEv #1290.6
+  movq %rax, -32(%rbp) #1290.6
+  jmp ..B29.5 # Prob 100% #1290.6
+..B29.4: # Preds ..B29.11
+  movq -80(%rbp), %rax #1287.4
+  movq -24(%rbp), %rdx #1288.6
+  movq %rdx, 8(%rax) #1287.4
+  movq -16(%rbp), %rbx #1291.2[spill]
+  leave #1291.2
+  ret #1291.2
+..B29.5: # Preds ..B29.10
+  movq -72(%rbp), %rax #1288.6
+  movq -64(%rbp), %rdx #1288.6
+  movq -80(%rbp), %rcx #1288.6
+  movq (%rcx), %rcx #1288.6
+  movq -32(%rbp), %rbx #1288.6
+  movq %rax, %rdi #1288.6
+  movq %rdx, %rsi #1288.6
+  movq %rcx, %rdx #1288.6
+  movq %rbx, %rcx #1288.6
+  call _ZSt22__uninitialized_copy_aIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS5_S5_ET0_T_SA_S9_RSaIT1_E #1288.6
+  movq %rax, -24(%rbp) #1288.6
+  jmp ..B29.4 # Prob 100% #1288.6
+_ZNSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1EPKS5_m:
+  pushq %rbp #63.36
+  movq %rsp, %rbp #63.36
+  subq $32, %rsp #63.36
+  movq %rdi, -32(%rbp) #63.36
+  movq %rsi, -24(%rbp) #63.36
+  movq %rdx, -16(%rbp) #63.36
+  movq -32(%rbp), %rax #63.18
+  movq -24(%rbp), %rdx #63.18
+  movq %rdx, (%rax) #63.18
+  movq -32(%rbp), %rax #63.31
+  movq -16(%rbp), %rdx #63.31
+  movq %rdx, 8(%rax) #63.31
+  leave #63.38
+  ret #63.38
+_ZNKSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4sizeEv:
+  pushq %rbp #71.29
+  movq %rsp, %rbp #71.29
+  subq $16, %rsp #71.29
+  movq %rdi, -16(%rbp) #71.29
+  movq -16(%rbp), %rax #71.38
+  movq 8(%rax), %rax #71.38
+  movq %rax, -8(%rbp) #71.38
+  movq -8(%rbp), %rax #71.31
+  leave #71.31
+  ret #71.31
+_ZNKSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE5beginEv:
+  pushq %rbp #75.30
+  movq %rsp, %rbp #75.30
+  subq $16, %rsp #75.30
+  movq %rdi, -16(%rbp) #75.30
+  movq -16(%rbp), %rax #75.39
+  movq (%rax), %rax #75.39
+  movq %rax, -8(%rbp) #75.39
+  movq -8(%rbp), %rax #75.32
+  leave #75.32
+  ret #75.32
+_ZNKSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE3endEv:
+  pushq %rbp #79.28
+  movq %rsp, %rbp #79.28
+  subq $32, %rsp #79.28
+  movq %rdi, -32(%rbp) #79.28
+  movq -32(%rbp), %rax #79.47
+  movq %rax, %rdi #79.47
+  call _ZNKSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4sizeEv #79.47
+  movq %rax, -24(%rbp) #79.47
+  movq -32(%rbp), %rax #79.37
+  movq %rax, %rdi #79.37
+  call _ZNKSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE5beginEv #79.37
+  movq %rax, -16(%rbp) #79.37
+  movq -24(%rbp), %rax #79.47
+  imulq $32, %rax, %rax #79.37
+  addq -16(%rbp), %rax #79.37
+  movq %rax, -8(%rbp) #79.37
+  movq -8(%rbp), %rax #79.30
+  leave #79.30
+  ret #79.30
+_ZNSt14pointer_traitsIPcE10pointer_toERc:
+  pushq %rbp #141.7
+  movq %rsp, %rbp #141.7
+  subq $32, %rsp #141.7
+  movq %rdi, -32(%rbp) #141.7
+  movq -32(%rbp), %rax #141.16
+  movq %rax, %rdi #141.16
+  call _ZSt9addressofIcEPT_RS0_ #141.16
+  movq %rax, -24(%rbp) #141.16
+  movq -24(%rbp), %rax #141.16
+  movq %rax, -16(%rbp) #141.16
+  movq -16(%rbp), %rax #141.9
+  leave #141.9
+  ret #141.9
+_ZNSt14pointer_traitsIPKcE10pointer_toERS0_:
+  pushq %rbp #141.7
+  movq %rsp, %rbp #141.7
+  subq $32, %rsp #141.7
+  movq %rdi, -32(%rbp) #141.7
+  movq -32(%rbp), %rax #141.16
+  movq %rax, %rdi #141.16
+  call _ZSt9addressofIKcEPT_RS1_ #141.16
+  movq %rax, -24(%rbp) #141.16
+  movq -24(%rbp), %rax #141.16
+  movq %rax, -16(%rbp) #141.16
+  movq -16(%rbp), %rax #141.9
+  leave #141.9
+  ret #141.9
+_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS7_EET0_T_SC_SB_:
+  pushq %rbp #70.9
+  movq %rsp, %rbp #70.9
+  subq $80, %rsp #70.9
+  movq %rdi, -80(%rbp) #70.9
+  movq %rsi, -72(%rbp) #70.9
+  movq %rdx, -64(%rbp) #70.9
+  movq -64(%rbp), %rax #71.29
+  movq %rax, -56(%rbp) #71.27
+..B36.2: # Preds ..B36.3 ..B36.1
+  movq -80(%rbp), %rax #74.15
+  movq -72(%rbp), %rdx #74.26
+  cmpq %rdx, %rax #74.26
+  jne ..B36.4 # Prob 50% #74.26
+  jmp ..B36.6 # Prob 100% #74.26
+..B36.3: # Preds ..B36.5
+  movl $32, %eax #74.36
+  addq -80(%rbp), %rax #74.36
+  movq %rax, -80(%rbp) #74.36
+  movl $32, %eax #74.53
+  addq -56(%rbp), %rax #74.53
+  movq %rax, -56(%rbp) #74.53
+  jmp ..B36.2 # Prob 100% #74.53
+..B36.4: # Preds ..B36.2
+  movq -56(%rbp), %rax #75.19
+  movq %rax, %rdi #75.19
+  call _ZSt11__addressofINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPT_RS6_ #75.19
+  movq %rax, -48(%rbp) #75.19
+  movq -48(%rbp), %rax #75.3
+  movq -80(%rbp), %rdx #75.3
+  movq %rax, %rdi #75.3
+  movq %rdx, %rsi #75.3
+  call _ZSt10_ConstructINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJRKS5_EEvPT_DpOT0_ #75.3
+  jmp ..B36.3 # Prob 100% #75.3
+..B36.6: # Preds ..B36.2
+  movq -56(%rbp), %rax #76.15
+  movq %rax, -40(%rbp) #76.15
+  movq -40(%rbp), %rax #76.8
+  leave #76.8
+  ret #76.8
+  movq %rax, -32(%rbp) #78.4
+  movl %edx, -24(%rbp) #78.4
+  movq -32(%rbp), %rax #78.4
+  movq %rax, %rdi #78.4
+  call __cxa_begin_catch #78.4
+  movq %rax, -16(%rbp) #78.4
+  jmp ..B36.12 # Prob 100% #78.4
+  movq %rax, -32(%rbp) #79.6
+  movl %edx, -24(%rbp) #79.6
+  call __cxa_end_catch #79.6
+  movq -32(%rbp), %rax #79.6
+  movq %rax, %rdi #79.6
+  call _Unwind_Resume #79.6
+..B36.12: # Preds ..B36.17
+  movq -64(%rbp), %rax #80.8
+  movq -56(%rbp), %rdx #80.8
+  movq %rax, %rdi #80.8
+  movq %rdx, %rsi #80.8
+  call _ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvT_S7_ #80.8
+  call __cxa_rethrow #81.8
+_ZNSt12_Destroy_auxILb0EE9__destroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvT_S9_:
+  pushq %rbp #101.2
+  movq %rsp, %rbp #101.2
+  subq $32, %rsp #101.2
+  movq %rdi, -32(%rbp) #101.2
+  movq %rsi, -24(%rbp) #101.2
+..B37.2: # Preds ..B37.3 ..B37.1
+  movq -32(%rbp), %rax #102.11
+  movq -24(%rbp), %rdx #102.22
+  cmpq %rdx, %rax #102.22
+  jne ..B37.4 # Prob 50% #102.22
+  jmp ..B37.6 # Prob 100% #102.22
+..B37.3: # Preds ..B37.5
+  movl $32, %eax #102.32
+  addq -32(%rbp), %rax #102.32
+  movq %rax, -32(%rbp) #102.32
+  jmp ..B37.2 # Prob 100% #102.32
+..B37.4: # Preds ..B37.2
+  movq -32(%rbp), %rax #103.20
+  movq %rax, %rdi #103.20
+  call _ZSt11__addressofINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPT_RS6_ #103.20
+  movq %rax, -16(%rbp) #103.20
+  movq -16(%rbp), %rax #103.6
+  movq %rax, %rdi #103.6
+  call _ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_ #103.6
+  jmp ..B37.3 # Prob 100% #103.6
+..B37.6: # Preds ..B37.2
+  leave #104.2
+  ret #104.2
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_:
+  pushq %rbp #213.2
+  movq %rsp, %rbp #213.2
+  subq $80, %rsp #213.2
+  movq %rdi, -56(%rbp) #213.2
+  movq %rsi, -48(%rbp) #213.2
+  movq %rdx, -40(%rbp) #213.2
+  movq -56(%rbp), %rax #215.4
+  movq %rax, -32(%rbp) #215.4[spill]
+  movq -48(%rbp), %rax #215.4
+  movq %rax, -24(%rbp) #215.4[spill]
+  movq -40(%rbp), %rax #215.4
+  movq %rax, -16(%rbp) #215.4[spill]
+  movq %rsp, %rax #215.4
+  lea -64(%rbp), %rdx #215.4
+  movq %rax, %rdi #215.4
+  movq %rdx, %rsi #215.4
+  movl $1, %ecx #215.4
+  movl %ecx, %eax #215.4
+  shrq $2, %rcx #215.4
+  rep #215.4
+  movsl #215.4
+  movl %eax, %ecx #215.4
+  andl $3, %ecx #215.4
+  rep #215.4
+  movsb #215.4
+  movq -32(%rbp), %rax #215.4[spill]
+  movq %rax, %rdi #215.4
+  movq -24(%rbp), %rax #215.4[spill]
+  movq %rax, %rsi #215.4
+  movq -16(%rbp), %rax #215.4[spill]
+  movq %rax, %rdx #215.4
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPKcEEvT_S8_St12__false_type #215.4
+  addq $16, %rsp #215.4
+  leave #216.9
+  ret #216.9
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPKcEEvT_S8_St12__false_type:
+  pushq %rbp #194.2
+  movq %rsp, %rbp #194.2
+  subq $80, %rsp #194.2
+  movq %rdi, -56(%rbp) #194.2
+  movq %rsi, -48(%rbp) #194.2
+  movq %rdx, -40(%rbp) #194.2
+  movq -56(%rbp), %rax #196.11
+  movq %rax, -32(%rbp) #196.11[spill]
+  movq -48(%rbp), %rax #196.11
+  movq %rax, -24(%rbp) #196.11[spill]
+  movq -40(%rbp), %rax #196.11
+  movq %rax, -16(%rbp) #196.11[spill]
+  lea -64(%rbp), %rax #196.11
+  movq %rsp, %rdx #196.11
+  movq %rdx, %rdi #196.11
+  movq %rax, %rsi #196.11
+  movl $1, %ecx #196.11
+  movl %ecx, %eax #196.11
+  shrq $2, %rcx #196.11
+  rep #196.11
+  movsl #196.11
+  movl %eax, %ecx #196.11
+  andl $3, %ecx #196.11
+  rep #196.11
+  movsb #196.11
+  movq -32(%rbp), %rax #196.11[spill]
+  movq %rax, %rdi #196.11
+  movq -24(%rbp), %rax #196.11[spill]
+  movq %rax, %rsi #196.11
+  movq -16(%rbp), %rax #196.11[spill]
+  movq %rax, %rdx #196.11
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag #196.11
+  addq $16, %rsp #196.11
+  leave #197.2
+  ret #197.2
+.L_2__STRING.0:
+  .long 1769169250
+  .long 1953718115
+  .long 1735289202
+  .long 1298086458
+  .long 1852793695
+  .long 1970435187
+  .long 1847620707
+  .long 543976565
+  .long 544501614
+  .long 1768710518
+  .word 100
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:
+  pushq %rbp #209.7
+  movq %rsp, %rbp #209.7
+  subq $64, %rsp #209.7
+  movq %rdi, -56(%rbp) #209.7
+  movq %rsi, -48(%rbp) #209.7
+  movq %rdx, -40(%rbp) #209.7
+  movq -48(%rbp), %rax #211.6
+  movq %rax, %rdi #211.6
+  call _ZN9__gnu_cxx17__is_null_pointerIKcEEbPT_ #211.6
+  movb %al, -64(%rbp) #211.6
+  movzbl -64(%rbp), %eax #211.6
+  movzbl %al, %eax #211.6
+  testl %eax, %eax #211.6
+  je ..B40.5 # Prob 50% #211.6
+  movq -48(%rbp), %rax #211.45
+  movq -40(%rbp), %rdx #211.54
+  cmpq %rdx, %rax #211.54
+  je ..B40.5 # Prob 50% #211.54
+  movl $.L_2__STRING.0, %eax #212.4
+  movq %rax, %rdi #212.4
+  call _ZSt19__throw_logic_errorPKc #212.4
+..B40.5: # Preds ..B40.3 ..B40.2
+  movq -48(%rbp), %rax #215.44
+  movq -40(%rbp), %rdx #215.44
+  movq %rax, %rdi #215.44
+  movq %rdx, %rsi #215.44
+  call _ZSt8distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_ #215.44
+  movq %rax, -32(%rbp) #215.44
+  movq -32(%rbp), %rax #215.44
+  movq %rax, -24(%rbp) #215.19
+  movq -24(%rbp), %rax #217.6
+  cmpq $15, %rax #217.15
+  jbe ..B40.10 # Prob 50% #217.15
+  movq -56(%rbp), %rax #219.14
+  lea -24(%rbp), %rdx #219.14
+  movl $0, %ecx #219.14
+  movq %rax, %rdi #219.14
+  movq %rdx, %rsi #219.14
+  movq %rcx, %rdx #219.14
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm #219.14
+  movq %rax, -16(%rbp) #219.14
+  movq -56(%rbp), %rax #219.6
+  movq -16(%rbp), %rdx #219.6
+  movq %rax, %rdi #219.6
+  movq %rdx, %rsi #219.6
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEPc #219.6
+  movq -56(%rbp), %rax #220.6
+  movq -24(%rbp), %rdx #220.6
+  movq %rax, %rdi #220.6
+  movq %rdx, %rsi #220.6
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_capacityEm #220.6
+..B40.10: # Preds ..B40.9 ..B40.6
+  movq -56(%rbp), %rax #225.26
+  movq %rax, %rdi #225.26
+  call _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv #225.26
+  movq %rax, -8(%rbp) #225.26
+  movq -8(%rbp), %rax #225.12
+  movq -48(%rbp), %rdx #225.12
+  movq -40(%rbp), %rcx #225.12
+  movq %rax, %rdi #225.12
+  movq %rdx, %rsi #225.12
+  movq %rcx, %rdx #225.12
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcPKcS7_ #225.12
+  movq -56(%rbp), %rax #232.2
+  movq -24(%rbp), %rdx #232.2
+  movq %rax, %rdi #232.2
+  movq %rdx, %rsi #232.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEm #232.2
+  leave #233.7
+  ret #233.7
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_:
+  pushq %rbp #213.2
+  movq %rsp, %rbp #213.2
+  subq $80, %rsp #213.2
+  movq %rdi, -56(%rbp) #213.2
+  movq %rsi, -48(%rbp) #213.2
+  movq %rdx, -40(%rbp) #213.2
+  movq -56(%rbp), %rax #215.4
+  movq %rax, -32(%rbp) #215.4[spill]
+  movq -48(%rbp), %rax #215.4
+  movq %rax, -24(%rbp) #215.4[spill]
+  movq -40(%rbp), %rax #215.4
+  movq %rax, -16(%rbp) #215.4[spill]
+  movq %rsp, %rax #215.4
+  lea -64(%rbp), %rdx #215.4
+  movq %rax, %rdi #215.4
+  movq %rdx, %rsi #215.4
+  movl $1, %ecx #215.4
+  movl %ecx, %eax #215.4
+  shrq $2, %rcx #215.4
+  rep #215.4
+  movsl #215.4
+  movl %eax, %ecx #215.4
+  andl $3, %ecx #215.4
+  rep #215.4
+  movsb #215.4
+  movq -32(%rbp), %rax #215.4[spill]
+  movq %rax, %rdi #215.4
+  movq -24(%rbp), %rax #215.4[spill]
+  movq %rax, %rsi #215.4
+  movq -16(%rbp), %rax #215.4[spill]
+  movq %rax, %rdx #215.4
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPcEEvT_S7_St12__false_type #215.4
+  addq $16, %rsp #215.4
+  leave #216.9
+  ret #216.9
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPcEEvT_S7_St12__false_type:
+  pushq %rbp #194.2
+  movq %rsp, %rbp #194.2
+  subq $80, %rsp #194.2
+  movq %rdi, -56(%rbp) #194.2
+  movq %rsi, -48(%rbp) #194.2
+  movq %rdx, -40(%rbp) #194.2
+  movq -56(%rbp), %rax #196.11
+  movq %rax, -32(%rbp) #196.11[spill]
+  movq -48(%rbp), %rax #196.11
+  movq %rax, -24(%rbp) #196.11[spill]
+  movq -40(%rbp), %rax #196.11
+  movq %rax, -16(%rbp) #196.11[spill]
+  lea -64(%rbp), %rax #196.11
+  movq %rsp, %rdx #196.11
+  movq %rdx, %rdi #196.11
+  movq %rax, %rsi #196.11
+  movl $1, %ecx #196.11
+  movl %ecx, %eax #196.11
+  shrq $2, %rcx #196.11
+  rep #196.11
+  movsl #196.11
+  movl %eax, %ecx #196.11
+  andl $3, %ecx #196.11
+  rep #196.11
+  movsb #196.11
+  movq -32(%rbp), %rax #196.11[spill]
+  movq %rax, %rdi #196.11
+  movq -24(%rbp), %rax #196.11[spill]
+  movq %rax, %rsi #196.11
+  movq -16(%rbp), %rax #196.11[spill]
+  movq %rax, %rdx #196.11
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag #196.11
+  addq $16, %rsp #196.11
+  leave #197.2
+  ret #197.2
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag:
+  pushq %rbp #209.7
+  movq %rsp, %rbp #209.7
+  subq $64, %rsp #209.7
+  movq %rdi, -56(%rbp) #209.7
+  movq %rsi, -48(%rbp) #209.7
+  movq %rdx, -40(%rbp) #209.7
+  movq -48(%rbp), %rax #211.6
+  movq %rax, %rdi #211.6
+  call _ZN9__gnu_cxx17__is_null_pointerIcEEbPT_ #211.6
+  movb %al, -64(%rbp) #211.6
+  movzbl -64(%rbp), %eax #211.6
+  movzbl %al, %eax #211.6
+  testl %eax, %eax #211.6
+  je ..B43.5 # Prob 50% #211.6
+  movq -48(%rbp), %rax #211.45
+  movq -40(%rbp), %rdx #211.54
+  cmpq %rdx, %rax #211.54
+  je ..B43.5 # Prob 50% #211.54
+  movl $.L_2__STRING.0, %eax #212.4
+  movq %rax, %rdi #212.4
+  call _ZSt19__throw_logic_errorPKc #212.4
+..B43.5: # Preds ..B43.3 ..B43.2
+  movq -48(%rbp), %rax #215.44
+  movq -40(%rbp), %rdx #215.44
+  movq %rax, %rdi #215.44
+  movq %rdx, %rsi #215.44
+  call _ZSt8distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_ #215.44
+  movq %rax, -32(%rbp) #215.44
+  movq -32(%rbp), %rax #215.44
+  movq %rax, -24(%rbp) #215.19
+  movq -24(%rbp), %rax #217.6
+  cmpq $15, %rax #217.15
+  jbe ..B43.10 # Prob 50% #217.15
+  movq -56(%rbp), %rax #219.14
+  lea -24(%rbp), %rdx #219.14
+  movl $0, %ecx #219.14
+  movq %rax, %rdi #219.14
+  movq %rdx, %rsi #219.14
+  movq %rcx, %rdx #219.14
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm #219.14
+  movq %rax, -16(%rbp) #219.14
+  movq -56(%rbp), %rax #219.6
+  movq -16(%rbp), %rdx #219.6
+  movq %rax, %rdi #219.6
+  movq %rdx, %rsi #219.6
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEPc #219.6
+  movq -56(%rbp), %rax #220.6
+  movq -24(%rbp), %rdx #220.6
+  movq %rax, %rdi #220.6
+  movq %rdx, %rsi #220.6
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_capacityEm #220.6
+..B43.10: # Preds ..B43.9 ..B43.6
+  movq -56(%rbp), %rax #225.26
+  movq %rax, %rdi #225.26
+  call _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv #225.26
+  movq %rax, -8(%rbp) #225.26
+  movq -8(%rbp), %rax #225.12
+  movq -48(%rbp), %rdx #225.12
+  movq -40(%rbp), %rcx #225.12
+  movq %rax, %rdi #225.12
+  movq %rdx, %rsi #225.12
+  movq %rcx, %rdx #225.12
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcS5_S5_ #225.12
+  movq -56(%rbp), %rax #232.2
+  movq -24(%rbp), %rdx #232.2
+  movq %rax, %rdi #232.2
+  movq %rdx, %rsi #232.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEm #232.2
+  leave #233.7
+  ret #233.7
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev:
+  pushq %rbp #107.14
+  movq %rsp, %rbp #107.14
+  subq $16, %rsp #107.14
+  movq %rdi, -16(%rbp) #107.14
+  movq -16(%rbp), %rax #107.14
+  movq %rax, %rdi #107.14
+  call _ZNSaIcED2Ev #107.14
+  leave #107.14
+  ret #107.14
+_ZN9__gnu_cxx13new_allocatorIcEC1Ev:
+  pushq %rbp #79.45
+  movq %rsp, %rbp #79.45
+  subq $16, %rsp #79.45
+  movq %rdi, -16(%rbp) #79.45
+  leave #79.47
+  ret #79.47
+_ZN9__gnu_cxx13new_allocatorIcEC2Ev:
+  pushq %rbp #79.7
+  movq %rsp, %rbp #79.7
+  subq $16, %rsp #79.7
+  movq %rdi, -16(%rbp) #79.7
+  movq -16(%rbp), %rax #79.7
+  movq %rax, %rdi #79.7
+  call _ZN9__gnu_cxx13new_allocatorIcEC1Ev #79.7
+  leave #79.7
+  ret #79.7
+_ZN9__gnu_cxx13new_allocatorIcEC1ERKS1_:
+  pushq %rbp #81.65
+  movq %rsp, %rbp #81.65
+  subq $16, %rsp #81.65
+  movq %rdi, -16(%rbp) #81.65
+  movq %rsi, -8(%rbp) #81.65
+  leave #81.67
+  ret #81.67
+_ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_:
+  pushq %rbp #81.7
+  movq %rsp, %rbp #81.7
+  subq $16, %rsp #81.7
+  movq %rdi, -16(%rbp) #81.7
+  movq %rsi, -8(%rbp) #81.7
+  movq -16(%rbp), %rax #81.7
+  movq -8(%rbp), %rdx #81.7
+  movq %rax, %rdi #81.7
+  movq %rdx, %rsi #81.7
+  call _ZN9__gnu_cxx13new_allocatorIcEC1ERKS1_ #81.7
+  leave #81.7
+  ret #81.7
+_ZN9__gnu_cxx13new_allocatorIcED1Ev:
+  pushq %rbp #86.46
+  movq %rsp, %rbp #86.46
+  subq $16, %rsp #86.46
+  movq %rdi, -16(%rbp) #86.46
+  leave #86.48
+  ret #86.48
+_ZN9__gnu_cxx13new_allocatorIcED2Ev:
+  pushq %rbp #86.7
+  movq %rsp, %rbp #86.7
+  subq $16, %rsp #86.7
+  movq %rdi, -16(%rbp) #86.7
+  movq -16(%rbp), %rax #86.7
+  movq %rax, %rdi #86.7
+  call _ZN9__gnu_cxx13new_allocatorIcED1Ev #86.7
+  leave #86.7
+  ret #86.7
+_ZN9__gnu_cxx13new_allocatorIcE10deallocateEPcm:
+  pushq %rbp #110.7
+  movq %rsp, %rbp #110.7
+  subq $32, %rsp #110.7
+  movq %rdi, -32(%rbp) #110.7
+  movq %rsi, -24(%rbp) #110.7
+  movq %rdx, -16(%rbp) #110.7
+  movq -24(%rbp), %rax #110.9
+  movq %rax, %rdi #110.9
+  call _ZdlPv #110.9
+  leave #110.33
+  ret #110.33
+_ZN9__gnu_cxx14__alloc_traitsISaIcEE17_S_select_on_copyERKS1_:
+  pushq %rbp #95.5
+  movq %rsp, %rbp #95.5
+  subq $16, %rsp #95.5
+  movq %rdi, -16(%rbp) #95.5
+  movq %rsi, -8(%rbp) #95.5
+  movq -16(%rbp), %rax #95.14
+  movq -8(%rbp), %rdx #95.14
+  movq %rax, %rdi #95.14
+  movq %rdx, %rsi #95.14
+  call _ZNSt16allocator_traitsISaIcEE37select_on_container_copy_constructionERKS0_ #95.14
+  leave #95.7
+  ret #95.7
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev:
+  pushq %rbp #79.45
+  movq %rsp, %rbp #79.45
+  subq $16, %rsp #79.45
+  movq %rdi, -16(%rbp) #79.45
+  leave #79.47
+  ret #79.47
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2Ev:
+  pushq %rbp #79.7
+  movq %rsp, %rbp #79.7
+  subq $16, %rsp #79.7
+  movq %rdi, -16(%rbp) #79.7
+  movq -16(%rbp), %rax #79.7
+  movq %rax, %rdi #79.7
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev #79.7
+  leave #79.7
+  ret #79.7
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKS7_:
+  pushq %rbp #81.65
+  movq %rsp, %rbp #81.65
+  subq $16, %rsp #81.65
+  movq %rdi, -16(%rbp) #81.65
+  movq %rsi, -8(%rbp) #81.65
+  leave #81.67
+  ret #81.67
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKS7_:
+  pushq %rbp #81.7
+  movq %rsp, %rbp #81.7
+  subq $16, %rsp #81.7
+  movq %rdi, -16(%rbp) #81.7
+  movq %rsi, -8(%rbp) #81.7
+  movq -16(%rbp), %rax #81.7
+  movq -8(%rbp), %rdx #81.7
+  movq %rax, %rdi #81.7
+  movq %rdx, %rsi #81.7
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKS7_ #81.7
+  leave #81.7
+  ret #81.7
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev:
+  pushq %rbp #86.46
+  movq %rsp, %rbp #86.46
+  subq $16, %rsp #86.46
+  movq %rdi, -16(%rbp) #86.46
+  leave #86.48
+  ret #86.48
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev:
+  pushq %rbp #86.7
+  movq %rsp, %rbp #86.7
+  subq $16, %rsp #86.7
+  movq %rdi, -16(%rbp) #86.7
+  movq -16(%rbp), %rax #86.7
+  movq %rax, %rdi #86.7
+  call _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #86.7
+  leave #86.7
+  ret #86.7
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv:
+  pushq %rbp #100.7
+  movq %rsp, %rbp #100.7
+  subq $48, %rsp #100.7
+  movq %rdi, -48(%rbp) #100.7
+  movq %rsi, -40(%rbp) #100.7
+  movq %rdx, -32(%rbp) #100.7
+  movq -48(%rbp), %rax #101.18
+  movq %rax, %rdi #101.18
+  call _ZNK9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8max_sizeEv #101.18
+  movq %rax, -24(%rbp) #101.18
+  movq -40(%rbp), %rax #101.6
+  movq -24(%rbp), %rdx #101.18
+  cmpq %rdx, %rax #101.18
+  jbe ..B59.4 # Prob 50% #101.18
+  call _ZSt17__throw_bad_allocv #102.4
+..B59.4: # Preds ..B59.2
+  movq -40(%rbp), %rax #104.27
+  imulq $32, %rax, %rax #104.27
+  movq %rax, %rdi #104.27
+  call _Znwm #104.27
+  movq %rax, -16(%rbp) #104.27
+  movq -16(%rbp), %rax #104.27
+  leave #104.27
+  ret #104.27
+_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE10deallocateEPS6_m:
+  pushq %rbp #110.7
+  movq %rsp, %rbp #110.7
+  subq $32, %rsp #110.7
+  movq %rdi, -32(%rbp) #110.7
+  movq %rsi, -24(%rbp) #110.7
+  movq %rdx, -16(%rbp) #110.7
+  movq -24(%rbp), %rax #110.9
+  movq %rax, %rdi #110.9
+  call _ZdlPv #110.9
+  leave #110.33
+  ret #110.33
+_ZNK9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8max_sizeEv:
+  pushq %rbp #114.7
+  movq %rsp, %rbp #114.7
+  subq $16, %rsp #114.7
+  movq %rdi, -16(%rbp) #114.7
+  movq $0x7ffffffffffffff, %rax #114.16
+  leave #114.16
+  ret #114.16
+_ZN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEC1ERKS8_:
+  pushq %rbp #777.25
+  movq %rsp, %rbp #777.25
+  subq $16, %rsp #777.25
+  movq %rdi, -16(%rbp) #777.25
+  movq %rsi, -8(%rbp) #777.25
+  movq -8(%rbp), %rax #777.20
+  movq -16(%rbp), %rdx #777.20
+  movq (%rax), %rax #777.20
+  movq %rax, (%rdx) #777.20
+  leave #777.27
+  ret #777.27
+_ZNK9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEdeEv:
+  pushq %rbp #790.7
+  movq %rsp, %rbp #790.7
+  subq $16, %rsp #790.7
+  movq %rdi, -16(%rbp) #790.7
+  movq -16(%rbp), %rax #790.17
+  movq (%rax), %rax #790.17
+  movq %rax, -8(%rbp) #790.17
+  movq -8(%rbp), %rax #790.9
+  leave #790.9
+  ret #790.9
+_ZN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEppEv:
+  pushq %rbp #798.7
+  movq %rsp, %rbp #798.7
+  subq $16, %rsp #798.7
+  movq %rdi, -16(%rbp) #798.7
+  movq -16(%rbp), %rax #799.4
+  movl $32, %edx #799.4
+  addq (%rax), %rdx #799.4
+  movq -16(%rbp), %rax #799.4
+  movq %rdx, (%rax) #799.4
+  movq -16(%rbp), %rax #800.10
+  leave #800.10
+  ret #800.10
+_ZNK9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEE4baseEv:
+  pushq %rbp #842.7
+  movq %rsp, %rbp #842.7
+  subq $16, %rsp #842.7
+  movq %rdi, -16(%rbp) #842.7
+  movq -16(%rbp), %rax #842.16
+  leave #842.16
+  ret #842.16
+
+_ZStorSt12_Ios_IostateS_:
+  pushq %rbp #170.3
+  movq %rsp, %rbp #170.3
+  subq $16, %rsp #170.3
+  movl %edi, -16(%rbp) #170.3
+  movl %esi, -8(%rbp) #170.3
+  movl -8(%rbp), %eax #170.66
+  orl -16(%rbp), %eax #170.66
+  leave #170.66
+  ret #170.66
+
+_ZSt9addressofIcEPT_RS0_:
+  pushq %rbp #136.5
+  movq %rsp, %rbp #136.5
+  subq $32, %rsp #136.5
+  movq %rdi, -32(%rbp) #136.5
+  movq -32(%rbp), %rax #136.14
+  movq %rax, %rdi #136.14
+  call _ZSt11__addressofIcEPT_RS0_ #136.14
+  movq %rax, -24(%rbp) #136.14
+  movq -24(%rbp), %rax #136.14
+  movq %rax, -16(%rbp) #136.14
+  movq -16(%rbp), %rax #136.7
+  leave #136.7
+  ret #136.7
+
+_ZSt11__addressofIcEPT_RS0_:
+  pushq %rbp #48.5
+  movq %rsp, %rbp #48.5
+  subq $16, %rsp #48.5
+  movq %rdi, -16(%rbp) #48.5
+  movq -16(%rbp), %rax #50.61
+  movq %rax, -8(%rbp) #50.61
+  movq -8(%rbp), %rax #49.7
+  leave #49.7
+  ret #49.7
+
+_ZSt8distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_:
+  pushq %rbp #136.5
+  movq %rsp, %rbp #136.5
+  subq $48, %rsp #136.5
+  movq %rdi, -40(%rbp) #136.5
+  movq %rsi, -32(%rbp) #136.5
+  lea -40(%rbp), %rax #139.34
+  movq %rax, %rdi #139.34
+  call _ZSt19__iterator_categoryIPKcENSt15iterator_traitsIT_E17iterator_categoryERKS3_ #139.34
+  movb %al, -48(%rbp) #139.34
+  addq $-16, %rsp #138.14
+  movq -40(%rbp), %rax #138.14
+  movq %rax, -16(%rbp) #138.14[spill]
+  movq -32(%rbp), %rax #138.14
+  movq %rax, -8(%rbp) #138.14[spill]
+  movq %rsp, %rax #138.14
+  lea -48(%rbp), %rdx #138.14
+  movq %rax, %rdi #138.14
+  movq %rdx, %rsi #138.14
+  movl $1, %ecx #138.14
+  movl %ecx, %eax #138.14
+  shrq $2, %rcx #138.14
+  rep #138.14
+  movsl #138.14
+  movl %eax, %ecx #138.14
+  andl $3, %ecx #138.14
+  rep #138.14
+  movsb #138.14
+  movq -16(%rbp), %rax #138.14[spill]
+  movq %rax, %rdi #138.14
+  movq -8(%rbp), %rax #138.14[spill]
+  movq %rax, %rsi #138.14
+  call _ZSt10__distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_St26random_access_iterator_tag #138.14
+  movq %rax, -24(%rbp) #138.14
+  addq $16, %rsp #138.14
+  movq -24(%rbp), %rax #138.14
+  leave #138.14
+  ret #138.14
+
+_ZSt19__iterator_categoryIPKcENSt15iterator_traitsIT_E17iterator_categoryERKS3_:
+  pushq %rbp #205.5
+  movq %rsp, %rbp #205.5
+  subq $16, %rsp #205.5
+  movq %rdi, -8(%rbp) #205.5
+  movzbl -16(%rbp), %eax #205.14
+  leave #205.14
+  ret #205.14
+
+_ZSt10__distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_St26random_access_iterator_tag:
+  pushq %rbp #98.5
+  movq %rsp, %rbp #98.5
+  subq $16, %rsp #98.5
+  movq %rdi, -16(%rbp) #98.5
+  movq %rsi, -8(%rbp) #98.5
+  movq -16(%rbp), %rax #102.23
+  negq %rax #102.23
+  addq -8(%rbp), %rax #102.23
+  leave #102.23
+  ret #102.23
+
+_ZSt9addressofIKcEPT_RS1_:
+  pushq %rbp #136.5
+  movq %rsp, %rbp #136.5
+  subq $32, %rsp #136.5
+  movq %rdi, -32(%rbp) #136.5
+  movq -32(%rbp), %rax #136.14
+  movq %rax, %rdi #136.14
+  call _ZSt11__addressofIKcEPT_RS1_ #136.14
+  movq %rax, -24(%rbp) #136.14
+  movq -24(%rbp), %rax #136.14
+  movq %rax, -16(%rbp) #136.14
+  movq -16(%rbp), %rax #136.7
+  leave #136.7
+  ret #136.7
+
+_ZSt11__addressofIKcEPT_RS1_:
+  pushq %rbp #48.5
+  movq %rsp, %rbp #48.5
+  subq $16, %rsp #48.5
+  movq %rdi, -16(%rbp) #48.5
+  movq -16(%rbp), %rax #50.61
+  movq %rax, -8(%rbp) #50.61
+  movq -8(%rbp), %rax #49.7
+  leave #49.7
+  ret #49.7
+
+_ZSt8distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_:
+  pushq %rbp #136.5
+  movq %rsp, %rbp #136.5
+  subq $48, %rsp #136.5
+  movq %rdi, -40(%rbp) #136.5
+  movq %rsi, -32(%rbp) #136.5
+  lea -40(%rbp), %rax #139.34
+  movq %rax, %rdi #139.34
+  call _ZSt19__iterator_categoryIPcENSt15iterator_traitsIT_E17iterator_categoryERKS2_ #139.34
+  movb %al, -48(%rbp) #139.34
+  addq $-16, %rsp #138.14
+  movq -40(%rbp), %rax #138.14
+  movq %rax, -16(%rbp) #138.14[spill]
+  movq -32(%rbp), %rax #138.14
+  movq %rax, -8(%rbp) #138.14[spill]
+  movq %rsp, %rax #138.14
+  lea -48(%rbp), %rdx #138.14
+  movq %rax, %rdi #138.14
+  movq %rdx, %rsi #138.14
+  movl $1, %ecx #138.14
+  movl %ecx, %eax #138.14
+  shrq $2, %rcx #138.14
+  rep #138.14
+  movsl #138.14
+  movl %eax, %ecx #138.14
+  andl $3, %ecx #138.14
+  rep #138.14
+  movsb #138.14
+  movq -16(%rbp), %rax #138.14[spill]
+  movq %rax, %rdi #138.14
+  movq -8(%rbp), %rax #138.14[spill]
+  movq %rax, %rsi #138.14
+  call _ZSt10__distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_St26random_access_iterator_tag #138.14
+  movq %rax, -24(%rbp) #138.14
+  addq $16, %rsp #138.14
+  movq -24(%rbp), %rax #138.14
+  leave #138.14
+  ret #138.14
+
+_ZSt19__iterator_categoryIPcENSt15iterator_traitsIT_E17iterator_categoryERKS2_:
+  pushq %rbp #205.5
+  movq %rsp, %rbp #205.5
+  subq $16, %rsp #205.5
+  movq %rdi, -8(%rbp) #205.5
+  movzbl -16(%rbp), %eax #205.14
+  leave #205.14
+  ret #205.14
+
+_ZSt10__distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_St26random_access_iterator_tag:
+  pushq %rbp #98.5
+  movq %rsp, %rbp #98.5
+  subq $16, %rsp #98.5
+  movq %rdi, -16(%rbp) #98.5
+  movq %rsi, -8(%rbp) #98.5
+  movq -16(%rbp), %rax #102.23
+  negq %rax #102.23
+  addq -8(%rbp), %rax #102.23
+  leave #102.23
+  ret #102.23
+
+_ZSt13__check_facetISt5ctypeIcEERKT_PS3_:
+  pushq %rbp #48.5
+  movq %rsp, %rbp #48.5
+  subq $16, %rsp #48.5
+  movq %rdi, -16(%rbp) #48.5
+  movq -16(%rbp), %rax #49.12
+  testq %rax, %rax #49.12
+  jne ..B77.3 # Prob 50% #49.12
+  call _ZSt16__throw_bad_castv #50.2
+..B77.3: # Preds ..B77.1
+  movq -16(%rbp), %rax #51.15
+  leave #51.15
+  ret #51.15
+
+_ZSt8distanceIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENSt15iterator_traitsIT_E15difference_typeES9_S9_:
+  pushq %rbp #136.5
+  movq %rsp, %rbp #136.5
+  subq $48, %rsp #136.5
+  movq %rdi, -40(%rbp) #136.5
+  movq %rsi, -32(%rbp) #136.5
+  lea -40(%rbp), %rax #139.34
+  movq %rax, %rdi #139.34
+  call _ZSt19__iterator_categoryIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENSt15iterator_traitsIT_E17iterator_categoryERKS9_ #139.34
+  movb %al, -48(%rbp) #139.34
+  addq $-16, %rsp #138.14
+  movq -40(%rbp), %rax #138.14
+  movq %rax, -16(%rbp) #138.14[spill]
+  movq -32(%rbp), %rax #138.14
+  movq %rax, -8(%rbp) #138.14[spill]
+  movq %rsp, %rax #138.14
+  lea -48(%rbp), %rdx #138.14
+  movq %rax, %rdi #138.14
+  movq %rdx, %rsi #138.14
+  movl $1, %ecx #138.14
+  movl %ecx, %eax #138.14
+  shrq $2, %rcx #138.14
+  rep #138.14
+  movsl #138.14
+  movl %eax, %ecx #138.14
+  andl $3, %ecx #138.14
+  rep #138.14
+  movsb #138.14
+  movq -16(%rbp), %rax #138.14[spill]
+  movq %rax, %rdi #138.14
+  movq -8(%rbp), %rax #138.14[spill]
+  movq %rax, %rsi #138.14
+  call _ZSt10__distanceIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENSt15iterator_traitsIT_E15difference_typeES9_S9_St26random_access_iterator_tag #138.14
+  movq %rax, -24(%rbp) #138.14
+  addq $16, %rsp #138.14
+  movq -24(%rbp), %rax #138.14
+  leave #138.14
+  ret #138.14
+
+_ZSt19__iterator_categoryIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENSt15iterator_traitsIT_E17iterator_categoryERKS9_:
+  pushq %rbp #205.5
+  movq %rsp, %rbp #205.5
+  subq $16, %rsp #205.5
+  movq %rdi, -8(%rbp) #205.5
+  movzbl -16(%rbp), %eax #205.14
+  leave #205.14
+  ret #205.14
+
+_ZSt10__distanceIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENSt15iterator_traitsIT_E15difference_typeES9_S9_St26random_access_iterator_tag:
+  pushq %rbp #98.5
+  movq %rsp, %rbp #98.5
+  subq $16, %rsp #98.5
+  movq %rdi, -16(%rbp) #98.5
+  movq %rsi, -8(%rbp) #98.5
+  movq -16(%rbp), %rax #102.23
+  negq %rax #102.23
+  addq -8(%rbp), %rax #102.23
+  sarq $5, %rax #102.23
+  leave #102.23
+  ret #102.23
+
+_ZSt22__uninitialized_copy_aIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS5_S5_ET0_T_SA_S9_RSaIT1_E:
+  pushq %rbp #281.5
+  movq %rsp, %rbp #281.5
+  subq $48, %rsp #281.5
+  movq %rdi, -48(%rbp) #281.5
+  movq %rsi, -40(%rbp) #281.5
+  movq %rdx, -32(%rbp) #281.5
+  movq %rcx, -24(%rbp) #281.5
+  movq -48(%rbp), %rax #281.14
+  movq -40(%rbp), %rdx #281.14
+  movq -32(%rbp), %rcx #281.14
+  movq %rax, %rdi #281.14
+  movq %rdx, %rsi #281.14
+  movq %rcx, %rdx #281.14
+  call _ZSt18uninitialized_copyIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS5_ET0_T_SA_S9_ #281.14
+  movq %rax, -16(%rbp) #281.14
+  movq -16(%rbp), %rax #281.14
+  leave #281.14
+  ret #281.14
+
+_ZSt18uninitialized_copyIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS5_ET0_T_SA_S9_:
+  pushq %rbp #109.5
+  movq %rsp, %rbp #109.5
+  subq $48, %rsp #109.5
+  movq %rdi, -40(%rbp) #109.5
+  movq %rsi, -32(%rbp) #109.5
+  movq %rdx, -24(%rbp) #109.5
+  movb $1, -48(%rbp) #120.31
+  movq -40(%rbp), %rax #123.14
+  movq -32(%rbp), %rdx #123.14
+  movq -24(%rbp), %rcx #123.14
+  movq %rax, %rdi #123.14
+  movq %rdx, %rsi #123.14
+  movq %rcx, %rdx #123.14
+  call _ZNSt20__uninitialized_copyILb0EE13__uninit_copyIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPS7_EET0_T_SC_SB_ #123.14
+  movq %rax, -16(%rbp) #123.14
+  movq -16(%rbp), %rax #123.14
+  leave #123.14
+  ret #123.14
+
+_ZSt11__addressofINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPT_RS6_:
+  pushq %rbp #48.5
+  movq %rsp, %rbp #48.5
+  subq $16, %rsp #48.5
+  movq %rdi, -16(%rbp) #48.5
+  movq -16(%rbp), %rax #50.61
+  movq %rax, -8(%rbp) #50.61
+  movq -8(%rbp), %rax #49.7
+  leave #49.7
+  ret #49.7
+
+_ZSt10_ConstructINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJRKS5_EEvPT_DpOT0_:
+  pushq %rbp #75.5
+  movq %rsp, %rbp #75.5
+  subq $96, %rsp #75.5
+  movq %rdi, -96(%rbp) #75.5
+  movq %rsi, -88(%rbp) #75.5
+  movq -96(%rbp), %rax #75.32
+  movq %rax, -80(%rbp) #75.32
+  movq -80(%rbp), %rax #75.32
+  movq %rax, -72(%rbp) #75.32
+  movl $32, %eax #75.32
+  movq -80(%rbp), %rdx #75.32
+  movq %rax, %rdi #75.32
+  movq %rdx, %rsi #75.32
+  call _ZnwmPv #75.32
+  movq %rax, -64(%rbp) #75.32
+  movq -64(%rbp), %rax #75.32
+  movq %rax, -56(%rbp) #75.32
+  movq -56(%rbp), %rax #75.32
+  movq %rax, -48(%rbp) #75.32
+  movq -56(%rbp), %rax #75.32
+  testq %rax, %rax #75.32
+  jne ..B84.4 # Prob 50% #75.32
+  movq $0, -32(%rbp) #75.42
+  jmp ..B84.10 # Prob 100% #75.42
+..B84.4: # Preds ..B84.2
+  movq -88(%rbp), %rax #75.42
+  movq %rax, %rdi #75.42
+  call _ZSt7forwardIRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEOT_RNSt16remove_referenceIS8_E4typeE #75.42
+  movq %rax, -40(%rbp) #75.42
+  movq -48(%rbp), %rax #75.42
+  movq -40(%rbp), %rdx #75.42
+  movq %rax, %rdi #75.42
+  movq %rdx, %rsi #75.42
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_ #75.42
+  jmp ..B84.9 # Prob 100% #75.42
+  movq %rax, -24(%rbp) #75.7
+  movl %edx, -16(%rbp) #75.7
+  movq -48(%rbp), %rax #75.7
+  movq -72(%rbp), %rdx #75.7
+  movq %rax, %rdi #75.7
+  movq %rdx, %rsi #75.7
+  call _ZdlPvS_ #75.7
+  movq -24(%rbp), %rax #75.7
+  movq %rax, %rdi #75.7
+  call _Unwind_Resume #75.7
+..B84.9: # Preds ..B84.5
+  movq -48(%rbp), %rax #75.42
+  movq %rax, -32(%rbp) #75.42
+..B84.10: # Preds ..B84.9 ..B84.3
+  leave #75.75
+  ret #75.75
+
+_ZSt7forwardIRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEOT_RNSt16remove_referenceIS8_E4typeE:
+  pushq %rbp #77.5
+  movq %rsp, %rbp #77.5
+  subq $16, %rsp #77.5
+  movq %rdi, -16(%rbp) #77.5
+  movq -16(%rbp), %rax #77.33
+  movq %rax, -8(%rbp) #77.33
+  movq -8(%rbp), %rax #77.7
+  leave #77.7
+  ret #77.7
+
+_ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvT_S7_:
+  pushq %rbp #123.5
+  movq %rsp, %rbp #123.5
+  subq $16, %rsp #123.5
+  movq %rdi, -16(%rbp) #123.5
+  movq %rsi, -8(%rbp) #123.5
+  movq -16(%rbp), %rax #126.7
+  movq -8(%rbp), %rdx #126.7
+  movq %rax, %rdi #126.7
+  movq %rdx, %rsi #126.7
+  call _ZNSt12_Destroy_auxILb0EE9__destroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvT_S9_ #126.7
+  leave #128.5
+  ret #128.5
+
+_ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_:
+  pushq %rbp #93.5
+  movq %rsp, %rbp #93.5
+  subq $16, %rsp #93.5
+  movq %rdi, -16(%rbp) #93.5
+  movq -16(%rbp), %rax #93.18
+  movq %rax, %rdi #93.18
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #93.18
+  leave #93.26
+  ret #93.26
+
+_ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EvT_S7_RSaIT0_E:
+  pushq %rbp #150.5
+  movq %rsp, %rbp #150.5
+  subq $32, %rsp #150.5
+  movq %rdi, -32(%rbp) #150.5
+  movq %rsi, -24(%rbp) #150.5
+  movq %rdx, -16(%rbp) #150.5
+  movq -32(%rbp), %rax #151.7
+  movq -24(%rbp), %rdx #151.7
+  movq %rax, %rdi #151.7
+  movq %rdx, %rsi #151.7
+  call _ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvT_S7_ #151.7
+  leave #152.5
+  ret #152.5
+
+_ZN9__gnu_cxxneIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEEbRKNS_17__normal_iteratorIT_T0_EESH_:
+  pushq %rbp #880.5
+  movq %rsp, %rbp #880.5
+  subq $48, %rsp #880.5
+  movq %rdi, -40(%rbp) #880.5
+  movq %rsi, -32(%rbp) #880.5
+  movq -40(%rbp), %rax #880.20
+  movq %rax, %rdi #880.20
+  call _ZNK9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEE4baseEv #880.20
+  movq %rax, -24(%rbp) #880.20
+  movq -32(%rbp), %rax #880.36
+  movq %rax, %rdi #880.36
+  call _ZNK9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEE4baseEv #880.36
+  movq %rax, -16(%rbp) #880.36
+  movq -24(%rbp), %rax #880.20
+  movq (%rax), %rax #880.20
+  movq -16(%rbp), %rdx #880.36
+  movq (%rdx), %rdx #880.36
+  xorl %ecx, %ecx #880.36
+  cmpq %rdx, %rax #880.36
+  setne %cl #880.36
+  movb %cl, -48(%rbp) #880.36
+  movzbl -48(%rbp), %eax #880.7
+  leave #880.7
+  ret #880.7
+
+_ZN9__gnu_cxx17__is_null_pointerIKcEEbPT_:
+  pushq %rbp #153.5
+  movq %rsp, %rbp #153.5
+  subq $16, %rsp #153.5
+  movq %rdi, -16(%rbp) #153.5
+  movq -16(%rbp), %rax #153.14
+  xorl %edx, %edx #153.23
+  testq %rax, %rax #153.23
+  sete %dl #153.23
+  movl %edx, %eax #153.23
+  leave #153.23
+  ret #153.23
+
+_ZN9__gnu_cxx17__is_null_pointerIcEEbPT_:
+  pushq %rbp #153.5
+  movq %rsp, %rbp #153.5
+  subq $16, %rsp #153.5
+  movq %rdi, -16(%rbp) #153.5
+  movq -16(%rbp), %rax #153.14
+  xorl %edx, %edx #153.23
+  testq %rax, %rax #153.23
+  sete %dl #153.23
+  movl %edx, %eax #153.23
+  leave #153.23
+  ret #153.23
+_ZN17_INTERNALbe8fdcea6groundB5cxx11E:
+_ZN17_INTERNALbe8fdcea24marshmallow_cheese_cremeB5cxx11E:
+_ZN17_INTERNALbe8fdcea13post_creationB5cxx11E:
+.L_2__STRING.1:
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .long 1850286125
+  .long 757101673
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .word 11565
+  .byte 0
+.L_2__STRING.2:
+  .long 757935370
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .long 1293954349
+  .long 1635214441
+  .long 757932153
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .byte 0
+.L_2__STRING.3:
+  .long 757935370
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .long 1176513837
+  .long 1818324585
+  .long 757102956
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .long 757935405
+  .word 45
+
+main:
+  pushq %rbp #31.1
+  movq %rsp, %rbp #31.1
+  subq $256, %rsp #31.1
+  movl $_ZSt4cout, %eax #32.12
+  movl $.L_2__STRING.1, %edx #32.12
+  movq %rax, %rdi #32.12
+  movq %rdx, %rsi #32.12
+  call _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc #32.12
+  movq %rax, -248(%rbp) #32.12
+  movq -248(%rbp), %rax #32.60
+  movl $_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %edx #32.60
+  movq %rax, %rdi #32.60
+  movq %rdx, %rsi #32.60
+  call _ZNSolsEPFRSoS_E #32.60
+  movq %rax, -240(%rbp) #32.60
+  movl $_ZN17_INTERNALbe8fdcea6groundB5cxx11E, %eax #33.21
+  movq %rax, -232(%rbp) #33.21
+  movq -232(%rbp), %rax #33.21
+  movq %rax, %rdi #33.21
+  call _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE5beginEv #33.21
+  movq %rax, -224(%rbp) #33.21
+  movq -232(%rbp), %rax #33.21
+  movq %rax, %rdi #33.21
+  call _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE3endEv #33.21
+  movq %rax, -216(%rbp) #33.21
+..B92.5: # Preds ..B92.40 ..B92.37
+  lea -224(%rbp), %rax #33.21
+  lea -216(%rbp), %rdx #33.21
+  movq %rax, %rdi #33.21
+  movq %rdx, %rsi #33.21
+  call _ZN9__gnu_cxxneIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEEbRKNS_17__normal_iteratorIT_T0_EESH_ #33.21
+  movb %al, -256(%rbp) #33.21
+  movzbl -256(%rbp), %eax #33.21
+  movzbl %al, %eax #33.21
+  testl %eax, %eax #33.21
+  je ..B92.11 # Prob 50% #33.21
+  lea -224(%rbp), %rax #33.21
+  movq %rax, %rdi #33.21
+  call _ZNK9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEdeEv #33.21
+  movq %rax, -208(%rbp) #33.21
+  jmp ..B92.9 # Prob 100% #33.21
+..B92.8: # Preds ..B92.42
+  lea -224(%rbp), %rax #33.21
+  movq %rax, %rdi #33.21
+  call _ZN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEppEv #33.21
+  movq %rax, -144(%rbp) #33.21
+  jmp ..B92.5 # Prob 100% #33.21
+..B92.9: # Preds ..B92.39
+  movq -208(%rbp), %rax #33.21
+  movq %rax, -192(%rbp) #33.21
+  movl $_ZSt4cout, %eax #34.13
+  movq -192(%rbp), %rdx #34.13
+  movq %rax, %rdi #34.13
+  movq %rdx, %rsi #34.13
+  call _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE #34.13
+  movq %rax, -184(%rbp) #34.13
+  movq -184(%rbp), %rax #34.21
+  movl $_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %edx #34.21
+  movq %rax, %rdi #34.21
+  movq %rdx, %rsi #34.21
+  call _ZNSolsEPFRSoS_E #34.21
+  movq %rax, -168(%rbp) #34.21
+  jmp ..B92.8 # Prob 100% #34.21
+..B92.11: # Preds ..B92.6
+  movl $_ZSt4cout, %eax #36.12
+  movl $.L_2__STRING.2, %edx #36.12
+  movq %rax, %rdi #36.12
+  movq %rdx, %rsi #36.12
+  call _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc #36.12
+  movq %rax, -200(%rbp) #36.12
+  movq -200(%rbp), %rax #36.63
+  movl $_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %edx #36.63
+  movq %rax, %rdi #36.63
+  movq %rdx, %rsi #36.63
+  call _ZNSolsEPFRSoS_E #36.63
+  movq %rax, -176(%rbp) #36.63
+  movl $_ZN17_INTERNALbe8fdcea24marshmallow_cheese_cremeB5cxx11E, %eax #37.21
+  movq %rax, -160(%rbp) #37.21
+  movq -160(%rbp), %rax #37.21
+  movq %rax, %rdi #37.21
+  call _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE5beginEv #37.21
+  movq %rax, -152(%rbp) #37.21
+  movq -160(%rbp), %rax #37.21
+  movq %rax, %rdi #37.21
+  call _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE3endEv #37.21
+  movq %rax, -136(%rbp) #37.21
+..B92.15: # Preds ..B92.49 ..B92.46
+  lea -152(%rbp), %rax #37.21
+  lea -136(%rbp), %rdx #37.21
+  movq %rax, %rdi #37.21
+  movq %rdx, %rsi #37.21
+  call _ZN9__gnu_cxxneIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEEbRKNS_17__normal_iteratorIT_T0_EESH_ #37.21
+  movb %al, -255(%rbp) #37.21
+  movzbl -255(%rbp), %eax #37.21
+  movzbl %al, %eax #37.21
+  testl %eax, %eax #37.21
+  je ..B92.21 # Prob 50% #37.21
+  lea -152(%rbp), %rax #37.21
+  movq %rax, %rdi #37.21
+  call _ZNK9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEdeEv #37.21
+  movq %rax, -128(%rbp) #37.21
+  jmp ..B92.19 # Prob 100% #37.21
+..B92.18: # Preds ..B92.51
+  lea -152(%rbp), %rax #37.21
+  movq %rax, %rdi #37.21
+  call _ZN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEppEv #37.21
+  movq %rax, -64(%rbp) #37.21
+  jmp ..B92.15 # Prob 100% #37.21
+..B92.19: # Preds ..B92.48
+  movq -128(%rbp), %rax #37.21
+  movq %rax, -112(%rbp) #37.21
+  movl $_ZSt4cout, %eax #38.13
+  movq -112(%rbp), %rdx #38.13
+  movq %rax, %rdi #38.13
+  movq %rdx, %rsi #38.13
+  call _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE #38.13
+  movq %rax, -104(%rbp) #38.13
+  movq -104(%rbp), %rax #38.21
+  movl $_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %edx #38.21
+  movq %rax, %rdi #38.21
+  movq %rdx, %rsi #38.21
+  call _ZNSolsEPFRSoS_E #38.21
+  movq %rax, -88(%rbp) #38.21
+  jmp ..B92.18 # Prob 100% #38.21
+..B92.21: # Preds ..B92.16
+  movl $_ZSt4cout, %eax #40.12
+  movl $.L_2__STRING.3, %edx #40.12
+  movq %rax, %rdi #40.12
+  movq %rdx, %rsi #40.12
+  call _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc #40.12
+  movq %rax, -120(%rbp) #40.12
+  movq -120(%rbp), %rax #40.64
+  movl $_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %edx #40.64
+  movq %rax, %rdi #40.64
+  movq %rdx, %rsi #40.64
+  call _ZNSolsEPFRSoS_E #40.64
+  movq %rax, -96(%rbp) #40.64
+  movl $_ZN17_INTERNALbe8fdcea13post_creationB5cxx11E, %eax #41.21
+  movq %rax, -80(%rbp) #41.21
+  movq -80(%rbp), %rax #41.21
+  movq %rax, %rdi #41.21
+  call _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE5beginEv #41.21
+  movq %rax, -72(%rbp) #41.21
+  movq -80(%rbp), %rax #41.21
+  movq %rax, %rdi #41.21
+  call _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE3endEv #41.21
+  movq %rax, -56(%rbp) #41.21
+..B92.25: # Preds ..B92.58 ..B92.55
+  lea -72(%rbp), %rax #41.21
+  lea -56(%rbp), %rdx #41.21
+  movq %rax, %rdi #41.21
+  movq %rdx, %rsi #41.21
+  call _ZN9__gnu_cxxneIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEEbRKNS_17__normal_iteratorIT_T0_EESH_ #41.21
+  movb %al, -254(%rbp) #41.21
+  movzbl -254(%rbp), %eax #41.21
+  movzbl %al, %eax #41.21
+  testl %eax, %eax #41.21
+  je ..B92.31 # Prob 50% #41.21
+  lea -72(%rbp), %rax #41.21
+  movq %rax, %rdi #41.21
+  call _ZNK9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEdeEv #41.21
+  movq %rax, -48(%rbp) #41.21
+  jmp ..B92.29 # Prob 100% #41.21
+..B92.28: # Preds ..B92.60
+  lea -72(%rbp), %rax #41.21
+  movq %rax, %rdi #41.21
+  call _ZN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEppEv #41.21
+  movq %rax, -16(%rbp) #41.21
+  jmp ..B92.25 # Prob 100% #41.21
+..B92.29: # Preds ..B92.57
+  movq -48(%rbp), %rax #41.21
+  movq %rax, -40(%rbp) #41.21
+  movl $_ZSt4cout, %eax #42.13
+  movq -40(%rbp), %rdx #42.13
+  movq %rax, %rdi #42.13
+  movq %rdx, %rsi #42.13
+  call _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE #42.13
+  movq %rax, -32(%rbp) #42.13
+  movq -32(%rbp), %rax #42.21
+  movl $_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %edx #42.21
+  movq %rax, %rdi #42.21
+  movq %rdx, %rsi #42.21
+  call _ZNSolsEPFRSoS_E #42.21
+  movq %rax, -24(%rbp) #42.21
+  jmp ..B92.28 # Prob 100% #42.21
+..B92.31: # Preds ..B92.26
+  movl $0, %eax #43.9
+  leave #43.9
+  ret #43.9
+_ZN17_INTERNALbe8fdceaSt8__ioinitE:
+
+__sti__$E:
+  pushq %rbp #
+  movq %rsp, %rbp #
+  subq $16, %rsp #
+  movl $_ZN17_INTERNALbe8fdceaSt8__ioinitE, %eax #74.25
+  movq %rax, %rdi #74.25
+  call _ZNSt8ios_base4InitC1Ev #74.25
+  movl $_ZNSt8ios_base4InitD1Ev, %eax #74.25
+  movl $_ZN17_INTERNALbe8fdceaSt8__ioinitE, %edx #74.25
+  movl $__dso_handle, %ecx #74.25
+  movq %rax, %rdi #74.25
+  movq %rdx, %rsi #74.25
+  movq %rcx, %rdx #74.25
+  call __cxa_atexit #74.25
+  movl %eax, -16(%rbp) #74.25
+  call __sti___ZN17_INTERNALbe8fdcea6groundB5cxx11E #74.25
+  call __sti___ZN17_INTERNALbe8fdcea24marshmallow_cheese_cremeB5cxx11E #74.25
+  call __sti___ZN17_INTERNALbe8fdcea13post_creationB5cxx11E #74.25
+  leave #74.25
+  ret #74.25
+.L_2__STRING.7:
+  .long 1668443974
+  .long 1986338917
+  .long 1954116197
+  .long 1735289192
+  .long 544106784
+  .long 1633886305
+  .long 1948280171
+  .long 1998614121
+  .long 543716457
+  .long 1768169569
+  .long 1952804193
+  .long 1864397413
+  .long 909254758
+  .long 544039712
+  .long 543452769
+  .long 543519605
+  .long 1969430625
+  .long 1869881456
+  .long 1701998624
+  .long 2032169843
+  .long 544372079
+  .long 1952672118
+  .long 1948282217
+  .long 1952999273
+  .long 1629518188
+  .long 1852399975
+  .long 1763734643
+  .long 1814047860
+  .long 1769365861
+  .long 1629513582
+  .long 1919902240
+  .long 544367972
+  .long 1830839919
+  .long 1700952417
+  .long 1663054112
+  .long 1752440941
+  .long 1763734625
+  .long 1818304627
+  .long 1881173875
+  .long 1936942450
+  .long 1629512805
+  .long 1852399975
+  .long 1948284019
+  .long 1931502952
+  .long 1936024681
+  .word 46
+.L_2__STRING.8:
+  .long 544503120
+  .long 1763734633
+  .long 1752440942
+  .long 1919295589
+  .long 1701274729
+  .long 1919903264
+  .long 540029216
+  .long 1970170189
+  .long 544433524
+  .long 543452769
+  .long 1701536116
+  .long 544500000
+  .long 544503151
+  .long 1751607666
+  .long 1700929652
+  .long 1701998438
+  .long 544500000
+  .long 1701147238
+  .long 544433530
+  .long 1679847284
+  .long 1752457573
+  .word 46
+.L_2__STRING.9:
+  .long 544503120
+  .long 1763734633
+  .long 544175214
+  .long 543516788
+  .long 1852143215
+  .long 1684955424
+  .long 1919906848
+  .long 1701999988
+  .long 1970239776
+  .long 1769349234
+  .long 1835627619
+  .long 1919903264
+  .long 540356896
+  .long 1970170189
+  .long 544433524
+  .long 824211810
+  .long -1329450952
+  .word 11843
+  .byte 0
+.L_2__STRING.4:
+  .long 1731213362
+  .long 1819243296
+  .long 539780201
+  .long 544830052
+  .long 1668508002
+  .long 1937009013
+  .long 1869182496
+  .long 1953391980
+  .long 1679849836
+  .long 1701671785
+  .long 1919246957
+  .long 3040357
+.L_2__STRING.5:
+  .long 543633458
+  .long 1868787555
+  .long 1869619297
+  .long 1919247479
+  .long 1633951788
+  .long 1629514610
+  .long 1970217075
+  .long 1869815922
+  .long 779316341
+  .byte 0
+.L_2__STRING.6:
+  .long 1731211825
+  .long 1869378336
+  .long 544828535
+  .long 543452769
+  .long 1852399984
+  .long 1819047270
+  .long 1869422713
+  .long 1852142700
+  .long 1953849888
+  .long 779249012
+  .byte 0
+
+__sti___ZN17_INTERNALbe8fdcea6groundB5cxx11E:
+  pushq %rbp #
+  movq %rsp, %rbp #
+  subq $288, %rsp #
+  movq %rbx, -16(%rbp) #[spill]
+  lea -288(%rbp), %rax #8.2
+  movq %rax, %rdi #8.2
+  call _ZNSaIcEC1Ev #8.2
+  lea -272(%rbp), %rax #8.2
+  movl $.L_2__STRING.4, %edx #8.2
+  lea -288(%rbp), %rcx #8.2
+  movq %rax, %rdi #8.2
+  movq %rdx, %rsi #8.2
+  movq %rcx, %rdx #8.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #8.2
+  jmp ..B94.4 # Prob 100% #8.2
+  movq %rax, -80(%rbp) #8.2
+  movl %edx, -72(%rbp) #8.2
+  jmp ..B94.43 # Prob 100% #8.2
+..B94.4: # Preds ..B94.2
+  lea -287(%rbp), %rax #9.2
+  movq %rax, %rdi #9.2
+  call _ZNSaIcEC1Ev #9.2
+  lea -272(%rbp), %rax #9.2
+  addq $32, %rax #9.2
+  movl $.L_2__STRING.5, %edx #9.2
+  lea -287(%rbp), %rcx #9.2
+  movq %rax, %rdi #9.2
+  movq %rdx, %rsi #9.2
+  movq %rcx, %rdx #9.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #9.2
+  jmp ..B94.7 # Prob 100% #9.2
+  movq %rax, -80(%rbp) #9.2
+  movl %edx, -72(%rbp) #9.2
+  jmp ..B94.40 # Prob 100% #9.2
+..B94.7: # Preds ..B94.5
+  lea -286(%rbp), %rax #10.2
+  movq %rax, %rdi #10.2
+  call _ZNSaIcEC1Ev #10.2
+  lea -272(%rbp), %rax #10.2
+  addq $64, %rax #10.2
+  movl $.L_2__STRING.6, %edx #10.2
+  lea -286(%rbp), %rcx #10.2
+  movq %rax, %rdi #10.2
+  movq %rdx, %rsi #10.2
+  movq %rcx, %rdx #10.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #10.2
+  jmp ..B94.10 # Prob 100% #10.2
+  movq %rax, -80(%rbp) #10.2
+  movl %edx, -72(%rbp) #10.2
+  jmp ..B94.37 # Prob 100% #10.2
+..B94.10: # Preds ..B94.8
+  lea -285(%rbp), %rax #11.2
+  movq %rax, %rdi #11.2
+  call _ZNSaIcEC1Ev #11.2
+  lea -272(%rbp), %rax #11.2
+  addq $96, %rax #11.2
+  movl $.L_2__STRING.7, %edx #11.2
+  lea -285(%rbp), %rcx #11.2
+  movq %rax, %rdi #11.2
+  movq %rdx, %rsi #11.2
+  movq %rcx, %rdx #11.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #11.2
+  jmp ..B94.13 # Prob 100% #11.2
+  movq %rax, -80(%rbp) #11.2
+  movl %edx, -72(%rbp) #11.2
+  jmp ..B94.34 # Prob 100% #11.2
+..B94.13: # Preds ..B94.11
+  lea -284(%rbp), %rax #12.2
+  movq %rax, %rdi #12.2
+  call _ZNSaIcEC1Ev #12.2
+  lea -272(%rbp), %rax #12.2
+  addq $128, %rax #12.2
+  movl $.L_2__STRING.8, %edx #12.2
+  lea -284(%rbp), %rcx #12.2
+  movq %rax, %rdi #12.2
+  movq %rdx, %rsi #12.2
+  movq %rcx, %rdx #12.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #12.2
+  jmp ..B94.16 # Prob 100% #12.2
+  movq %rax, -80(%rbp) #12.2
+  movl %edx, -72(%rbp) #12.2
+  jmp ..B94.31 # Prob 100% #12.2
+..B94.16: # Preds ..B94.14
+  lea -283(%rbp), %rax #13.2
+  movq %rax, %rdi #13.2
+  call _ZNSaIcEC1Ev #13.2
+  lea -272(%rbp), %rax #13.2
+  addq $160, %rax #13.2
+  movl $.L_2__STRING.9, %edx #13.2
+  lea -283(%rbp), %rcx #13.2
+  movq %rax, %rdi #13.2
+  movq %rdx, %rsi #13.2
+  movq %rcx, %rdx #13.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #13.2
+  jmp ..B94.19 # Prob 100% #13.2
+  movq %rax, -80(%rbp) #13.2
+  movl %edx, -72(%rbp) #13.2
+  jmp ..B94.28 # Prob 100% #13.2
+..B94.19: # Preds ..B94.17
+  lea -64(%rbp), %rax #13.2
+  lea -272(%rbp), %rdx #13.2
+  movl $6, %ecx #13.2
+  movq %rax, %rdi #13.2
+  movq %rdx, %rsi #13.2
+  movq %rcx, %rdx #13.2
+  call _ZNSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1EPKS5_m #13.2
+  lea -282(%rbp), %rax #7.43
+  movq %rax, %rdi #7.43
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev #7.43
+  movl $_ZN17_INTERNALbe8fdcea6groundB5cxx11E, %eax #7.43
+  movq -64(%rbp), %rdx #7.43
+  movq -56(%rbp), %rcx #7.43
+  lea -282(%rbp), %rbx #7.43
+  movq %rax, %rdi #7.43
+  movq %rdx, %rsi #7.43
+  movq %rcx, %rdx #7.43
+  movq %rbx, %rcx #7.43
+  call _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ESt16initializer_listIS5_ERKS6_ #7.43
+  movl $_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev, %eax #7.34
+  movl $_ZN17_INTERNALbe8fdcea6groundB5cxx11E, %edx #7.34
+  movl $__dso_handle, %ecx #7.34
+  movq %rax, %rdi #7.34
+  movq %rdx, %rsi #7.34
+  movq %rcx, %rdx #7.34
+  call __cxa_atexit #7.34
+  jmp ..B94.57 # Prob 100% #7.34
+  movq %rax, -80(%rbp) #7.43
+  movl %edx, -72(%rbp) #7.43
+  lea -282(%rbp), %rax #7.43
+  movq %rax, %rdi #7.43
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #7.43
+  movq $6, -32(%rbp) #13.2
+  lea -272(%rbp), %rax #13.2
+  addq $192, %rax #13.2
+  movq %rax, -24(%rbp) #13.2
+..B94.26: # Preds ..B94.45 ..B94.25
+  movq -32(%rbp), %rax #13.2
+  testq %rax, %rax #13.2
+  jne ..B94.45 # Prob 50% #13.2
+..B94.28: # Preds ..B94.27 ..B94.18
+  lea -283(%rbp), %rax #13.2
+  movq %rax, %rdi #13.2
+  call _ZNSaIcED1Ev #13.2
+  lea -272(%rbp), %rax #12.2
+  movl $4, %edx #12.2
+  imulq $32, %rdx, %rdx #12.2
+  addq %rdx, %rax #12.2
+  movq %rax, %rdi #12.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #12.2
+..B94.31: # Preds ..B94.30 ..B94.15
+  lea -284(%rbp), %rax #12.2
+  movq %rax, %rdi #12.2
+  call _ZNSaIcED1Ev #12.2
+  lea -272(%rbp), %rax #11.2
+  movl $3, %edx #11.2
+  imulq $32, %rdx, %rdx #11.2
+  addq %rdx, %rax #11.2
+  movq %rax, %rdi #11.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #11.2
+..B94.34: # Preds ..B94.33 ..B94.12
+  lea -285(%rbp), %rax #11.2
+  movq %rax, %rdi #11.2
+  call _ZNSaIcED1Ev #11.2
+  lea -272(%rbp), %rax #10.2
+  movl $2, %edx #10.2
+  imulq $32, %rdx, %rdx #10.2
+  addq %rdx, %rax #10.2
+  movq %rax, %rdi #10.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #10.2
+..B94.37: # Preds ..B94.36 ..B94.9
+  lea -286(%rbp), %rax #10.2
+  movq %rax, %rdi #10.2
+  call _ZNSaIcED1Ev #10.2
+  lea -272(%rbp), %rax #9.2
+  movl $1, %edx #9.2
+  imulq $32, %rdx, %rdx #9.2
+  addq %rdx, %rax #9.2
+  movq %rax, %rdi #9.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #9.2
+..B94.40: # Preds ..B94.39 ..B94.6
+  lea -287(%rbp), %rax #9.2
+  movq %rax, %rdi #9.2
+  call _ZNSaIcED1Ev #9.2
+  lea -272(%rbp), %rax #8.2
+  movq %rax, %rdi #8.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #8.2
+..B94.43: # Preds ..B94.42 ..B94.3
+  lea -288(%rbp), %rax #8.2
+  movq %rax, %rdi #8.2
+  call _ZNSaIcED1Ev #8.2
+  movq -80(%rbp), %rax #8.2
+  movq %rax, %rdi #8.2
+  call _Unwind_Resume #8.2
+..B94.45: # Preds ..B94.26
+  movq $-32, %rax #13.2
+  addq -24(%rbp), %rax #13.2
+  movq %rax, -24(%rbp) #13.2
+  movq $-1, %rax #13.2
+  addq -32(%rbp), %rax #13.2
+  movq %rax, -32(%rbp) #13.2
+  movq -24(%rbp), %rax #13.2
+  movq %rax, %rdi #13.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #13.2
+  jmp ..B94.26 # Prob 100% #13.2
+..B94.46: # Preds ..B94.57
+  movl -280(%rbp), %eax #7.34
+  movl %eax, -276(%rbp) #7.34
+  lea -282(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #7.34
+  movq $6, -48(%rbp) #7.34
+  lea -272(%rbp), %rax #7.34
+  addq $192, %rax #7.34
+  movq %rax, -40(%rbp) #7.34
+..B94.48: # Preds ..B94.56 ..B94.47
+  movq -48(%rbp), %rax #7.34
+  testq %rax, %rax #7.34
+  jne ..B94.56 # Prob 50% #7.34
+  lea -283(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSaIcED1Ev #7.34
+  lea -284(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSaIcED1Ev #7.34
+  lea -285(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSaIcED1Ev #7.34
+  lea -286(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSaIcED1Ev #7.34
+  lea -287(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSaIcED1Ev #7.34
+  lea -288(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSaIcED1Ev #7.34
+  movq -16(%rbp), %rbx #7.34[spill]
+  leave #7.34
+  ret #7.34
+..B94.56: # Preds ..B94.48
+  movq $-32, %rax #7.34
+  addq -40(%rbp), %rax #7.34
+  movq %rax, -40(%rbp) #7.34
+  movq $-1, %rax #7.34
+  addq -48(%rbp), %rax #7.34
+  movq %rax, -48(%rbp) #7.34
+  movq -40(%rbp), %rax #7.34
+  movq %rax, %rdi #7.34
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #7.34
+  jmp ..B94.48 # Prob 100% #7.34
+..B94.57: # Preds ..B94.22
+  movl %eax, -280(%rbp) #7.34
+  jmp ..B94.46 # Prob 100% #7.34
+.L_2__STRING.10:
+  .long 544503120
+  .long 1731211825
+  .long 1918979360
+  .long 1634560115
+  .long 2003790956
+  .long 1852383347
+  .long 1646289184
+  .long 745305967
+  .long 1684300064
+  .long 808857888
+  .long 1917001831
+  .long 544039269
+  .long 1701144643
+  .long 1629513075
+  .long 1881171054
+  .long 1763734645
+  .long 1769414772
+  .long 1970235508
+  .long 1768759412
+  .long 1735289208
+  .long 1953392928
+  .long 1752440943
+  .long 1768759397
+  .long 2003792483
+  .long 543520353
+  .long 544370534
+  .long 1766662193
+  .long 1702131054
+  .long 544825888
+  .long 540028982
+  .long 1953784151
+  .word 11891
+  .byte 0
+.L_2__STRING.11:
+  .long 1952539970
+  .long 1701344288
+  .long 2020175136
+  .long 1701999988
+  .long 544240928
+  .long 1752459639
+  .long 1970239776
+  .long 1752637554
+  .long 543912809
+  .long 1769238133
+  .long 1953046636
+  .long 1701798944
+  .long 1948741235
+  .long 1869573152
+  .long 1768693867
+  .long 1763730795
+  .long 1919885428
+  .long 1852401513
+  .long 2037148769
+  .long 1684628512
+  .long 2037276960
+  .long 1701998445
+  .long 541141024
+  .long 1835364963
+  .long 3025253
+.L_2__STRING.13:
+  .long 543450177
+  .long 1702109281
+  .long 1869640545
+  .long 1864396399
+  .long 1701584998
+  .long 544108397
+  .long 1667855722
+  .long 1851859045
+  .long 1868767332
+  .long 1852404846
+  .long 1830839669
+  .long 1852405865
+  .long 1868963943
+  .long 543236210
+  .long 1886744419
+  .long 1864394092
+  .long 1702043750
+  .long 1684959075
+  .word 11891
+  .byte 0
+.L_2__STRING.14:
+  .long 544698190
+  .long 1920298864
+  .long 1701344288
+  .long 1902734368
+  .long 1768319349
+  .long 1914725477
+  .long 1767992677
+  .long 1763734382
+  .long 544175214
+  .long 543516788
+  .long 1986359920
+  .long 1937076073
+  .long 1830844780
+  .long 543515745
+  .long 1701536099
+  .long 1869768480
+  .long 543452789
+  .long 1763733363
+  .long 1768300660
+  .long 544435308
+  .long 543516788
+  .long 1701605224
+  .long 544106784
+  .long 544437353
+  .long 1918985576
+  .word 11892
+  .byte 0
+.L_2__STRING.12:
+  .long 543450177
+  .long 1731211825
+  .long 1818840352
+  .long 1851859051
+  .long 1868767332
+  .long 1852404846
+  .long 1830839669
+  .long 1852405865
+  .word 11879
+  .byte 0
+.L_2__STRING.15:
+  .long 544503120
+  .long 1919252069
+  .long 1768453241
+  .long 1763731310
+  .long 1752440942
+  .long 1919295589
+  .long 1701274729
+  .long 1919903264
+  .long 1869504800
+  .long 1919248500
+  .long 1970235424
+  .word 11890
+  .byte 0
+
+__sti___ZN17_INTERNALbe8fdcea24marshmallow_cheese_cremeB5cxx11E:
+  pushq %rbp #
+  movq %rsp, %rbp #
+  subq $288, %rsp #
+  movq %rbx, -16(%rbp) #[spill]
+  lea -288(%rbp), %rax #17.2
+  movq %rax, %rdi #17.2
+  call _ZNSaIcEC1Ev #17.2
+  lea -272(%rbp), %rax #17.2
+  movl $.L_2__STRING.10, %edx #17.2
+  lea -288(%rbp), %rcx #17.2
+  movq %rax, %rdi #17.2
+  movq %rdx, %rsi #17.2
+  movq %rcx, %rdx #17.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #17.2
+  jmp ..B95.4 # Prob 100% #17.2
+  movq %rax, -80(%rbp) #17.2
+  movl %edx, -72(%rbp) #17.2
+  jmp ..B95.43 # Prob 100% #17.2
+..B95.4: # Preds ..B95.2
+  lea -287(%rbp), %rax #18.2
+  movq %rax, %rdi #18.2
+  call _ZNSaIcEC1Ev #18.2
+  lea -272(%rbp), %rax #18.2
+  addq $32, %rax #18.2
+  movl $.L_2__STRING.11, %edx #18.2
+  lea -287(%rbp), %rcx #18.2
+  movq %rax, %rdi #18.2
+  movq %rdx, %rsi #18.2
+  movq %rcx, %rdx #18.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #18.2
+  jmp ..B95.7 # Prob 100% #18.2
+  movq %rax, -80(%rbp) #18.2
+  movl %edx, -72(%rbp) #18.2
+  jmp ..B95.40 # Prob 100% #18.2
+..B95.7: # Preds ..B95.5
+  lea -286(%rbp), %rax #19.2
+  movq %rax, %rdi #19.2
+  call _ZNSaIcEC1Ev #19.2
+  lea -272(%rbp), %rax #19.2
+  addq $64, %rax #19.2
+  movl $.L_2__STRING.12, %edx #19.2
+  lea -286(%rbp), %rcx #19.2
+  movq %rax, %rdi #19.2
+  movq %rdx, %rsi #19.2
+  movq %rcx, %rdx #19.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #19.2
+  jmp ..B95.10 # Prob 100% #19.2
+  movq %rax, -80(%rbp) #19.2
+  movl %edx, -72(%rbp) #19.2
+  jmp ..B95.37 # Prob 100% #19.2
+..B95.10: # Preds ..B95.8
+  lea -285(%rbp), %rax #20.2
+  movq %rax, %rdi #20.2
+  call _ZNSaIcEC1Ev #20.2
+  lea -272(%rbp), %rax #20.2
+  addq $96, %rax #20.2
+  movl $.L_2__STRING.13, %edx #20.2
+  lea -285(%rbp), %rcx #20.2
+  movq %rax, %rdi #20.2
+  movq %rdx, %rsi #20.2
+  movq %rcx, %rdx #20.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #20.2
+  jmp ..B95.13 # Prob 100% #20.2
+  movq %rax, -80(%rbp) #20.2
+  movl %edx, -72(%rbp) #20.2
+  jmp ..B95.34 # Prob 100% #20.2
+..B95.13: # Preds ..B95.11
+  lea -284(%rbp), %rax #21.2
+  movq %rax, %rdi #21.2
+  call _ZNSaIcEC1Ev #21.2
+  lea -272(%rbp), %rax #21.2
+  addq $128, %rax #21.2
+  movl $.L_2__STRING.14, %edx #21.2
+  lea -284(%rbp), %rcx #21.2
+  movq %rax, %rdi #21.2
+  movq %rdx, %rsi #21.2
+  movq %rcx, %rdx #21.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #21.2
+  jmp ..B95.16 # Prob 100% #21.2
+  movq %rax, -80(%rbp) #21.2
+  movl %edx, -72(%rbp) #21.2
+  jmp ..B95.31 # Prob 100% #21.2
+..B95.16: # Preds ..B95.14
+  lea -283(%rbp), %rax #22.2
+  movq %rax, %rdi #22.2
+  call _ZNSaIcEC1Ev #22.2
+  lea -272(%rbp), %rax #22.2
+  addq $160, %rax #22.2
+  movl $.L_2__STRING.15, %edx #22.2
+  lea -283(%rbp), %rcx #22.2
+  movq %rax, %rdi #22.2
+  movq %rdx, %rsi #22.2
+  movq %rcx, %rdx #22.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #22.2
+  jmp ..B95.19 # Prob 100% #22.2
+  movq %rax, -80(%rbp) #22.2
+  movl %edx, -72(%rbp) #22.2
+  jmp ..B95.28 # Prob 100% #22.2
+..B95.19: # Preds ..B95.17
+  lea -64(%rbp), %rax #22.2
+  lea -272(%rbp), %rdx #22.2
+  movl $6, %ecx #22.2
+  movq %rax, %rdi #22.2
+  movq %rdx, %rsi #22.2
+  movq %rcx, %rdx #22.2
+  call _ZNSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1EPKS5_m #22.2
+  lea -282(%rbp), %rax #16.61
+  movq %rax, %rdi #16.61
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev #16.61
+  movl $_ZN17_INTERNALbe8fdcea24marshmallow_cheese_cremeB5cxx11E, %eax #16.61
+  movq -64(%rbp), %rdx #16.61
+  movq -56(%rbp), %rcx #16.61
+  lea -282(%rbp), %rbx #16.61
+  movq %rax, %rdi #16.61
+  movq %rdx, %rsi #16.61
+  movq %rcx, %rdx #16.61
+  movq %rbx, %rcx #16.61
+  call _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ESt16initializer_listIS5_ERKS6_ #16.61
+  movl $_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev, %eax #16.34
+  movl $_ZN17_INTERNALbe8fdcea24marshmallow_cheese_cremeB5cxx11E, %edx #16.34
+  movl $__dso_handle, %ecx #16.34
+  movq %rax, %rdi #16.34
+  movq %rdx, %rsi #16.34
+  movq %rcx, %rdx #16.34
+  call __cxa_atexit #16.34
+  jmp ..B95.57 # Prob 100% #16.34
+  movq %rax, -80(%rbp) #16.61
+  movl %edx, -72(%rbp) #16.61
+  lea -282(%rbp), %rax #16.61
+  movq %rax, %rdi #16.61
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #16.61
+  movq $6, -32(%rbp) #22.2
+  lea -272(%rbp), %rax #22.2
+  addq $192, %rax #22.2
+  movq %rax, -24(%rbp) #22.2
+..B95.26: # Preds ..B95.45 ..B95.25
+  movq -32(%rbp), %rax #22.2
+  testq %rax, %rax #22.2
+  jne ..B95.45 # Prob 50% #22.2
+..B95.28: # Preds ..B95.27 ..B95.18
+  lea -283(%rbp), %rax #22.2
+  movq %rax, %rdi #22.2
+  call _ZNSaIcED1Ev #22.2
+  lea -272(%rbp), %rax #21.2
+  movl $4, %edx #21.2
+  imulq $32, %rdx, %rdx #21.2
+  addq %rdx, %rax #21.2
+  movq %rax, %rdi #21.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #21.2
+..B95.31: # Preds ..B95.30 ..B95.15
+  lea -284(%rbp), %rax #21.2
+  movq %rax, %rdi #21.2
+  call _ZNSaIcED1Ev #21.2
+  lea -272(%rbp), %rax #20.2
+  movl $3, %edx #20.2
+  imulq $32, %rdx, %rdx #20.2
+  addq %rdx, %rax #20.2
+  movq %rax, %rdi #20.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #20.2
+..B95.34: # Preds ..B95.33 ..B95.12
+  lea -285(%rbp), %rax #20.2
+  movq %rax, %rdi #20.2
+  call _ZNSaIcED1Ev #20.2
+  lea -272(%rbp), %rax #19.2
+  movl $2, %edx #19.2
+  imulq $32, %rdx, %rdx #19.2
+  addq %rdx, %rax #19.2
+  movq %rax, %rdi #19.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #19.2
+..B95.37: # Preds ..B95.36 ..B95.9
+  lea -286(%rbp), %rax #19.2
+  movq %rax, %rdi #19.2
+  call _ZNSaIcED1Ev #19.2
+  lea -272(%rbp), %rax #18.2
+  movl $1, %edx #18.2
+  imulq $32, %rdx, %rdx #18.2
+  addq %rdx, %rax #18.2
+  movq %rax, %rdi #18.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #18.2
+..B95.40: # Preds ..B95.39 ..B95.6
+  lea -287(%rbp), %rax #18.2
+  movq %rax, %rdi #18.2
+  call _ZNSaIcED1Ev #18.2
+  lea -272(%rbp), %rax #17.2
+  movq %rax, %rdi #17.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #17.2
+..B95.43: # Preds ..B95.42 ..B95.3
+  lea -288(%rbp), %rax #17.2
+  movq %rax, %rdi #17.2
+  call _ZNSaIcED1Ev #17.2
+  movq -80(%rbp), %rax #17.2
+  movq %rax, %rdi #17.2
+  call _Unwind_Resume #17.2
+..B95.45: # Preds ..B95.26
+  movq $-32, %rax #22.2
+  addq -24(%rbp), %rax #22.2
+  movq %rax, -24(%rbp) #22.2
+  movq $-1, %rax #22.2
+  addq -32(%rbp), %rax #22.2
+  movq %rax, -32(%rbp) #22.2
+  movq -24(%rbp), %rax #22.2
+  movq %rax, %rdi #22.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #22.2
+  jmp ..B95.26 # Prob 100% #22.2
+..B95.46: # Preds ..B95.57
+  movl -280(%rbp), %eax #16.34
+  movl %eax, -276(%rbp) #16.34
+  lea -282(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #16.34
+  movq $6, -48(%rbp) #16.34
+  lea -272(%rbp), %rax #16.34
+  addq $192, %rax #16.34
+  movq %rax, -40(%rbp) #16.34
+..B95.48: # Preds ..B95.56 ..B95.47
+  movq -48(%rbp), %rax #16.34
+  testq %rax, %rax #16.34
+  jne ..B95.56 # Prob 50% #16.34
+  lea -283(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSaIcED1Ev #16.34
+  lea -284(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSaIcED1Ev #16.34
+  lea -285(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSaIcED1Ev #16.34
+  lea -286(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSaIcED1Ev #16.34
+  lea -287(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSaIcED1Ev #16.34
+  lea -288(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSaIcED1Ev #16.34
+  movq -16(%rbp), %rbx #16.34[spill]
+  leave #16.34
+  ret #16.34
+..B95.56: # Preds ..B95.48
+  movq $-32, %rax #16.34
+  addq -40(%rbp), %rax #16.34
+  movq %rax, -40(%rbp) #16.34
+  movq $-1, %rax #16.34
+  addq -48(%rbp), %rax #16.34
+  movq %rax, -48(%rbp) #16.34
+  movq -40(%rbp), %rax #16.34
+  movq %rax, %rdi #16.34
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #16.34
+  jmp ..B95.48 # Prob 100% #16.34
+..B95.57: # Preds ..B95.22
+  movl %eax, -280(%rbp) #16.34
+  jmp ..B95.46 # Prob 100% #16.34
+.L_2__STRING.16:
+  .long 544497989
+  .long 3044457
+.L_2__STRING.17:
+  .long 1634036803
+  .long 1870209134
+  .long 1830842997
+  .long 544437093
+  .long 1931505781
+  .long 1870209135
+  .long 1633886325
+  .long 1634541678
+  .long 1629513067
+  .long 1752461166
+  .long 1864397413
+  .long 3040622
+
+__sti___ZN17_INTERNALbe8fdcea13post_creationB5cxx11E:
+  pushq %rbp #
+  movq %rsp, %rbp #
+  subq $160, %rsp #
+  movq %rbx, -16(%rbp) #[spill]
+  lea -160(%rbp), %rax #26.2
+  movq %rax, %rdi #26.2
+  call _ZNSaIcEC1Ev #26.2
+  lea -144(%rbp), %rax #26.2
+  movl $.L_2__STRING.16, %edx #26.2
+  lea -160(%rbp), %rcx #26.2
+  movq %rax, %rdi #26.2
+  movq %rdx, %rsi #26.2
+  movq %rcx, %rdx #26.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #26.2
+  jmp ..B96.4 # Prob 100% #26.2
+  movq %rax, -80(%rbp) #26.2
+  movl %edx, -72(%rbp) #26.2
+  jmp ..B96.19 # Prob 100% #26.2
+..B96.4: # Preds ..B96.2
+  lea -159(%rbp), %rax #27.2
+  movq %rax, %rdi #27.2
+  call _ZNSaIcEC1Ev #27.2
+  lea -144(%rbp), %rax #27.2
+  addq $32, %rax #27.2
+  movl $.L_2__STRING.17, %edx #27.2
+  lea -159(%rbp), %rcx #27.2
+  movq %rax, %rdi #27.2
+  movq %rdx, %rsi #27.2
+  movq %rcx, %rdx #27.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_ #27.2
+  jmp ..B96.7 # Prob 100% #27.2
+  movq %rax, -80(%rbp) #27.2
+  movl %edx, -72(%rbp) #27.2
+  jmp ..B96.16 # Prob 100% #27.2
+..B96.7: # Preds ..B96.5
+  lea -64(%rbp), %rax #27.2
+  lea -144(%rbp), %rdx #27.2
+  movl $2, %ecx #27.2
+  movq %rax, %rdi #27.2
+  movq %rdx, %rsi #27.2
+  movq %rcx, %rdx #27.2
+  call _ZNSt16initializer_listINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1EPKS5_m #27.2
+  lea -158(%rbp), %rax #25.50
+  movq %rax, %rdi #25.50
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev #25.50
+  movl $_ZN17_INTERNALbe8fdcea13post_creationB5cxx11E, %eax #25.50
+  movq -64(%rbp), %rdx #25.50
+  movq -56(%rbp), %rcx #25.50
+  lea -158(%rbp), %rbx #25.50
+  movq %rax, %rdi #25.50
+  movq %rdx, %rsi #25.50
+  movq %rcx, %rdx #25.50
+  movq %rbx, %rcx #25.50
+  call _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ESt16initializer_listIS5_ERKS6_ #25.50
+  movl $_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev, %eax #25.34
+  movl $_ZN17_INTERNALbe8fdcea13post_creationB5cxx11E, %edx #25.34
+  movl $__dso_handle, %ecx #25.34
+  movq %rax, %rdi #25.34
+  movq %rdx, %rsi #25.34
+  movq %rcx, %rdx #25.34
+  call __cxa_atexit #25.34
+  jmp ..B96.29 # Prob 100% #25.34
+  movq %rax, -80(%rbp) #25.50
+  movl %edx, -72(%rbp) #25.50
+  lea -158(%rbp), %rax #25.50
+  movq %rax, %rdi #25.50
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #25.50
+  movq $2, -32(%rbp) #27.2
+  lea -144(%rbp), %rax #27.2
+  addq $64, %rax #27.2
+  movq %rax, -24(%rbp) #27.2
+..B96.14: # Preds ..B96.21 ..B96.13
+  movq -32(%rbp), %rax #27.2
+  testq %rax, %rax #27.2
+  jne ..B96.21 # Prob 50% #27.2
+..B96.16: # Preds ..B96.15 ..B96.6
+  lea -159(%rbp), %rax #27.2
+  movq %rax, %rdi #27.2
+  call _ZNSaIcED1Ev #27.2
+  lea -144(%rbp), %rax #26.2
+  movq %rax, %rdi #26.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #26.2
+..B96.19: # Preds ..B96.18 ..B96.3
+  lea -160(%rbp), %rax #26.2
+  movq %rax, %rdi #26.2
+  call _ZNSaIcED1Ev #26.2
+  movq -80(%rbp), %rax #26.2
+  movq %rax, %rdi #26.2
+  call _Unwind_Resume #26.2
+..B96.21: # Preds ..B96.14
+  movq $-32, %rax #27.2
+  addq -24(%rbp), %rax #27.2
+  movq %rax, -24(%rbp) #27.2
+  movq $-1, %rax #27.2
+  addq -32(%rbp), %rax #27.2
+  movq %rax, -32(%rbp) #27.2
+  movq -24(%rbp), %rax #27.2
+  movq %rax, %rdi #27.2
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #27.2
+  jmp ..B96.14 # Prob 100% #27.2
+..B96.22: # Preds ..B96.29
+  movl -156(%rbp), %eax #25.34
+  movl %eax, -152(%rbp) #25.34
+  lea -158(%rbp), %rax #25.34
+  movq %rax, %rdi #25.34
+  call _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev #25.34
+  movq $2, -48(%rbp) #25.34
+  lea -144(%rbp), %rax #25.34
+  addq $64, %rax #25.34
+  movq %rax, -40(%rbp) #25.34
+..B96.24: # Preds ..B96.28 ..B96.23
+  movq -48(%rbp), %rax #25.34
+  testq %rax, %rax #25.34
+  jne ..B96.28 # Prob 50% #25.34
+  lea -159(%rbp), %rax #25.34
+  movq %rax, %rdi #25.34
+  call _ZNSaIcED1Ev #25.34
+  lea -160(%rbp), %rax #25.34
+  movq %rax, %rdi #25.34
+  call _ZNSaIcED1Ev #25.34
+  movq -16(%rbp), %rbx #25.34[spill]
+  leave #25.34
+  ret #25.34
+..B96.28: # Preds ..B96.24
+  movq $-32, %rax #25.34
+  addq -40(%rbp), %rax #25.34
+  movq %rax, -40(%rbp) #25.34
+  movq $-1, %rax #25.34
+  addq -48(%rbp), %rax #25.34
+  movq %rax, -48(%rbp) #25.34
+  movq -40(%rbp), %rax #25.34
+  movq %rax, %rdi #25.34
+  call _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev #25.34
+  jmp ..B96.24 # Prob 100% #25.34
+..B96.29: # Preds ..B96.10
+  movl %eax, -156(%rbp) #25.34
+  jmp ..B96.22 # Prob 100% #25.34
