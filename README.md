@@ -5,6 +5,10 @@
 [Marshmallow-Cheese Creme](#marshmallow-cheese-creme)  
 [Installation on Linux](#installation-on-linux)
 
+---
+
+![Logo](https://github.com/Parou/Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme/raw/master/logo/Cake.svg?sanitize=true)
+
 ## Ground:  
 
 1. 280g solid, dry biscuits violently dismembered.
