@@ -7,7 +7,7 @@
 
 ---
 
-![Logo](https://github.com/Parou/Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme/raw/master/logo/Cake.png)
+![Logo](https://github.com/Parou/Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme/raw/master/logo/Cake.svg?sanitize=true)
 
 ## Ground:  
 
