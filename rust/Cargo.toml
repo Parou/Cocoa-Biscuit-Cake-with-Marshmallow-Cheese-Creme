@@ -1,0 +1,8 @@
+[package]
+name = "cocoa_biscuit_cake_with_marshmallow_cheese_creme"
+version = "0.1.0"
+authors = ["AXAz0r <thealeksaradovic@gmail.com>"]
+
+[dependencies]
+serde = "^1.0"
+serde_json = "^1.0"
