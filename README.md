@@ -1,3 +1,5 @@
+![Build-Status](img/build.png)
+
 # Cocoa-Biscuit Cake with Marshmallow-Cheese Creme
 
 #### Table of contents
@@ -7,7 +9,7 @@
 
 ---
 
-![Logo](https://github.com/Parou/Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme/raw/master/logo/Cake.svg?sanitize=true)
+![Logo](logo/Cake.svg?sanitize=true)
 
 ## Ground:  
 
