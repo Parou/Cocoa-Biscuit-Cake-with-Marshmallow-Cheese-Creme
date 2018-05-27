@@ -42,6 +42,8 @@ var afterwards = [
  *
  * @param {String} elemTag - The element tag name to create.
  * @param {Node} [child = null] - A Node to be inserted inside the created DOM element.
+ *
+ * @returns {Node}
  */
 function _createNode(elemTag, child = null) {
     const newElem = document.createElement(elemTag);
