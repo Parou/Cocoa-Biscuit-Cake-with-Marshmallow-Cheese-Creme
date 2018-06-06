@@ -21,8 +21,8 @@
 6. Put it into the oven and torture your victim for 15 Minutes by 180°C.
 
 ## Marshmallow-Cheese Creme:
-7. Put 120g Marshmallows in a bowl, add 160g Cream Cheese and put it without mixing into the microwave for 1 Minute by 600 Watts.
-8. Beat the mixture up with your whisk until it doesn't look like it originally did anymore (A creme).
+7. Put 120g Marshmallows in a bowl, add 160g Cream Cheese and put it without mixing into the microwave for 1 Minute at 600 Watts.
+8. Beat the mixture up with your whisk until it doesn't look like it originally did any more (A cream).
 9. Add 120g Milk and continue mixing.
 10. Add a teaspoon of lemon juice and continue mixing for a couple of seconds.
 11. Now pour the liquified remains into the previously made cake ground so it fills the hole in its heart.
