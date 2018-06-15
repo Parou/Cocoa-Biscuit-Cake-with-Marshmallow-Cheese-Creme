@@ -43,7 +43,7 @@ creme: furnish_kitchen
 	mv clean_surface/bowl microwave
 	echo 1 > microwave/onoff
 	sleep 1m
-	ecgi 0 > microwave/onoff
+	echo 0 > microwave/onoff
 	mv microwave/bowl clean_surface
 	shuf clean_surface/bowl > clean_surface/bowl
 	echo "Milk $(MILK_MASS)g" >> clean_surface/bowl
